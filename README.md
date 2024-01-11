@@ -24,8 +24,8 @@ University of Michigan's JavaScript, jQuery and JSON.
   width="20%" />
 </p>
 
-JavaScript, jQuery and JSON
-By Charles Russell Severance, Clinical Professor University of Michigan
+<h2>JavaScript, jQuery and JSON</h2>
+<h6>By Charles Russell Severance, Clinical Professor University of Michigan</h6>
 
 We take a quick look at the JavaScript language. We assume that you already know PHP - so it is a pretty quick introduction focusing on what is different about JavaScript.
 
