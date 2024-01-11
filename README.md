@@ -75,9 +75,10 @@ Introduction to JavaScript
 We take a quick look at the JavaScript language. We assume that you already know PHP - so it is a pretty quick introduction focusing on what is different about JavaScript.
 
 <h3>17 videos, 10 readings</h3>
-  •	Reading: Textbook & Course Resources
-  •	Reading: Help Us Learn More About You!
-  •	Reading: Syllabus
+
+  - Reading: Textbook & Course Resources
+  - Reading: Help Us Learn More About You!
+  - Reading: Syllabus
 1.	Video: Welcome to the Course
 2.	Video: JavaScript Overview
 3.	Video: Basic JavaScript
