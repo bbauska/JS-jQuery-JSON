@@ -1,5 +1,28 @@
+---
+title: "University of Michigan's JavaScript, jQuery &amp; JSON"
+author: "bbauska"
+date last editted: "1/11/2024 3+pm"
+output: 
+  markdown:
+    with some style
+---
+
 # UofM-JS-jQuery-JSON
 University of Michigan's JavaScript, jQuery and JSON.
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of js-jquery-json.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h1 align="center">JavaScript, jQuery and JSON</h1>
+
+<h6 align="center">(by Colleen van Lent, PhD - University of Michigan)</h6>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01.  logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+  <img src="./images/image001.png" 
+  alt="logo." 
+  style="border: 2px solid #000000;" 
+  width="20%" />
+</p>
 
 JavaScript, jQuery and JSON
 By Charles Russell Severance, Clinical Professor University of Michigan
