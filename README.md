@@ -1,5 +1,5 @@
 ---
-title: "University of Michigan's JavaScript, jQuery &amp; JSON"
+title: "University of Michigan's JavaScript, jQuery & JSON"
 author: "bbauska"
 date last editted: "1/11/2024 3+pm"
 output: 
