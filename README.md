@@ -88,7 +88,6 @@ We take a quick look at the JavaScript language. We assume that you already know
 7.	Video: Code Walkthrough: JavaScript
 8.	Video: JavaScript - Document Object Model
 9.	Video: Code Walkthrough: Document Object Model (DOM)
-
   - Practice Quiz: JavaScript
 10.	Video: Code Walkthrough - Javascript/Profiles
   - Reading: Assignment Specification: JavaScript/Profiles
@@ -108,10 +107,10 @@ We take a quick look at the JavaScript language. We assume that you already know
 
 We do a quick look at how the JavaScript language supports the Object-Oriented pattern. This is the second time we look at the OO pattern so we focus on the unique aspect of how JavaScript approaches OO.
 <h3>4 videos, 1 practice quiz</h3>
+
 1.	Video: JavaScript - Object Oriented Concepts
 2.	Video: JavaScript - Building Objects
 3.	Video: JavaScript - Object Life Cycle
-
   - Practice Quiz: JavaScript Objects
 4.	Video: Bonus: Office Hours Seoul, South Korea
 
@@ -119,13 +118,14 @@ We do a quick look at how the JavaScript language supports the Object-Oriented p
 
 This is a brief introduction to the JQuery library which is widely used to do in-browser manipulation of the Document Object Model(DOM) and event handling.
 <h3>7 videos, 1 reading</h3>
+
 1.	Video: jQuery Basics
 2.	Video: Code Walkthrough: jQuery Basics
 3.	Video: Forms and jQuery
 4.	Video: Code Walkthrough: Forms and JQuery
 5.	Video: Code Walkthrough: Profiles, Positions and JQuery
-  * Reading: Assignment Specification: Profiles, Positions and JQuery
-  * App Item: Peer-Grader: Profiles, Positions and jQuery
+  - Reading: Assignment Specification: Profiles, Positions and JQuery
+  - App Item: Peer-Grader: Profiles, Positions and jQuery
 6.	Video: Bonus: John Resig - JQuery
 7.	Video: Bonus: Office Hours, Barcelona
 
@@ -133,6 +133,7 @@ This is a brief introduction to the JQuery library which is widely used to do in
 
 In this section we look at JavaScript Object Notation (JSON). JSON is commonly used as a syntax to exchange data between code running on the server (i.e. in PHP) and code running in the browser (JavaScript/JQuery).
 <h3>9 videos, 3 readings, 1 practice quiz</h3>
+
 1.	Video: JavaScript Object Notation (JSON)
 2.	Video: JSON and jQuery
 3.	Video: Code Walkthrough: JavaScript Object Notation
@@ -140,14 +141,15 @@ In this section we look at JavaScript Object Notation (JSON). JSON is commonly u
 5.	Video: Code Walkthrough: JSON Chat
 6.	Video: Code WalkThrough - JSON CRUD
 7.	Video: Code Walkthrough: Profile, Positions, Education, and JSON
-•	Reading: Assignment Specification: Profiles, Positions, and Education
-•	App Item: Peer-Grader: Profiles, Positions, and Education
-•	Practice Quiz: JQuery & JSON
+  - Reading: Assignment Specification: Profiles, Positions, and Education
+  - App Item: Peer-Grader: Profiles, Positions, and Education
+  - Practice Quiz: JQuery & JSON
 8.	Video: Bonus Office Hours: Montreal, Quebec
 9.	Video: Fun: Chuck Pretends he is a Travel Show (Paris)
-•	Reading: Post-Course Survey
-•	Reading: Keep Learning with Michigan Online
-Textbook & Course Resources
+  - Reading: Post-Course Survey
+  - Reading: Keep Learning with Michigan Online
+
+<h4>Textbook & Course Resources</h4>
 This course uses an open and free textbook titled, "The Missing Link: An Introduction to Web Development and Programming".
 https://milneopentextbooks.org/the-missing-link-an-introduction-to-web-development-and-programming/
 Please utilize the Resources section for downloadable slides, web links, and other resources by module.
