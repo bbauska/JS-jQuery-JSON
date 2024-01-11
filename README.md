@@ -29,15 +29,17 @@ University of Michigan's JavaScript, jQuery and JSON.
 
 We take a quick look at the JavaScript language. We assume that you already know PHP - so it is a pretty quick introduction focusing on what is different about JavaScript.
 
-Learning Objectives
-•	Describe how and when JavaScript is executed in the browser
-•	Describe the three ways that JavaScript can be placed within a web page
-•	Build and debug simple JavaScript code snippets
-•	Demonstrate how to debug JavaScript errors using the browser developer console
-•	Give examples of JavaScript manipulating the HTML Document Object Model (DOM)
-•	Describe the history of the JavaScript language, where and when it was developed, and its relationship to Java
-•	Explain the asynchronous nature of JavaScript in the browser
-•	Understand how and when the code in an "onlick" attribute is executed
+<h4>Learning Objectives</h4>
+<ul>
+  <li>Describe how and when JavaScript is executed in the browser</li>
+  <li>Describe the three ways that JavaScript can be placed within a web page</li>
+  <li>Build and debug simple JavaScript code snippets</li>
+  <li>Demonstrate how to debug JavaScript errors using the browser developer console</li>
+  <li>Give examples of JavaScript manipulating the HTML Document Object Model (DOM)</li>
+  <li>Describe the history of the JavaScript language, where and when it was developed, and its relationship to Java</li>
+  <li>Explain the asynchronous nature of JavaScript in the browser</li>
+  <li>Understand how and when the code in an "onlick" attribute is executed</li>
+</ul>
 
 Welcome to JavaScript, jQuery, and JSON, taught by Charles Severance!
 In this course, we'll look at the JavaScript language, and how it supports the Object-Oriented pattern, with a focus on the unique aspect of how JavaScript approaches OO. We'll explore a brief introduction to the jQuery library, which is widely used to do in-browser manipulation of the Document Object Model (DOM) and event handling. You'll also learn more about JavaScript Object Notation (JSON), which is commonly used as a syntax to exchange data between code running on the server (i.e. in PHP) and code running in the browser (JavaScript/jQuery).
