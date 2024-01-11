@@ -59,6 +59,7 @@ It is assumed that learners have already taken the Building Web Applications and
 
 <h4>Links & Sample Code</h4>
 Introduction to JavaScript
+
   - https://www.wa4e.com/code/javascript.zip (download)
   - https://www.wa4e.com/code/javascript (source)  
   - https://www.wa4e.com/code/rrc.zip (download)
