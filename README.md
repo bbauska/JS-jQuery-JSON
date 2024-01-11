@@ -72,12 +72,12 @@ Introduction to JavaScript
 <h1>Syllabus</h1>
 
 <h2>Week 1 - Introduction to JavaScript</h2>
+
 We take a quick look at the JavaScript language. We assume that you already know PHP - so it is a pretty quick introduction focusing on what is different about JavaScript.
 
 <h3>17 videos, 10 readings</h3>
 
   - Reading: Textbook & Course Resources
-  - Reading: Help Us Learn More About You!
   - Reading: Syllabus
 1.	Video: Welcome to the Course
 2.	Video: JavaScript Overview
@@ -88,33 +88,35 @@ We take a quick look at the JavaScript language. We assume that you already know
 7.	Video: Code Walkthrough: JavaScript
 8.	Video: JavaScript - Document Object Model
 9.	Video: Code Walkthrough: Document Object Model (DOM)
-  •	Practice Quiz: JavaScript
+
+  - Practice Quiz: JavaScript
 10.	Video: Code Walkthrough - Javascript/Profiles
-  •	Reading: Assignment Specification: JavaScript/Profiles
-  •	App Item: Peer-Grader: JavaScript / Profiles
-  •	Reading: About This Section
-  •	Reading: Installation Handouts
+  - Reading: Assignment Specification: JavaScript/Profiles
+  - App Item: Peer-Grader: JavaScript / Profiles
+  - Reading: About This Section
+  - Reading: Installation Handouts
 11.	Video: Installing MAMP on Macintosh
 12.	Video: Installing MAMP on Windows10
 13.	Video: Installing XAMPP on Windows10
-•	Reading: Installing LAMP On Linux
-•	Reading: Submitting your code to the autograder
+  - Reading: Installing LAMP On Linux
 14.	Video: Windows: Using NGrok with the Autograder
 15.	Video: Macintosh: Using NGrok with the Autograder
 16.	Video: Bonus: Brendan Eich - Inventing JavaScript
 17.	Video: Bonus: Office Hours Seattle, Washington
 
 <h2>Week 2 - JavaScript Objects</h2>
+
 We do a quick look at how the JavaScript language supports the Object-Oriented pattern. This is the second time we look at the OO pattern so we focus on the unique aspect of how JavaScript approaches OO.
-4 videos, 1 practice quiz
+<h3>4 videos, 1 practice quiz</h3>
 1.	Video: JavaScript - Object Oriented Concepts
 2.	Video: JavaScript - Building Objects
 3.	Video: JavaScript - Object Life Cycle
-•	Practice Quiz: JavaScript Objects
+
+  - Practice Quiz: JavaScript Objects
 4.	Video: Bonus: Office Hours Seoul, South Korea
 
-### Week 3
-Using JQuery
+<h2>Week 3 - Using JQuery</h2>
+
 This is a brief introduction to the JQuery library which is widely used to do in-browser manipulation of the Document Object Model(DOM) and event handling.
 <h3>7 videos, 1 reading</h3>
 1.	Video: jQuery Basics
@@ -127,10 +129,10 @@ This is a brief introduction to the JQuery library which is widely used to do in
 6.	Video: Bonus: John Resig - JQuery
 7.	Video: Bonus: Office Hours, Barcelona
 
-Week 4
-JSON - JavaScript Object Notation
+<h2>Week 4 - JSON - JavaScript Object Notation</h2>
+
 In this section we look at JavaScript Object Notation (JSON). JSON is commonly used as a syntax to exchange data between code running on the server (i.e. in PHP) and code running in the browser (JavaScript/JQuery).
-9 videos, 3 readings, 1 practice quiz
+<h3>9 videos, 3 readings, 1 practice quiz</h3>
 1.	Video: JavaScript Object Notation (JSON)
 2.	Video: JSON and jQuery
 3.	Video: Code Walkthrough: JavaScript Object Notation
