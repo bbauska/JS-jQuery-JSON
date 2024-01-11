@@ -50,25 +50,26 @@ Slides
 
 •	01-JavaScript.pdf PDF File
 
-Links & Sample Code
+<h3>Links & Sample Code</h3>
 Introduction to JavaScript
-•	https://www.wa4e.com/code/javascript.zip (download)
-•	https://www.wa4e.com/code/javascript (source)  
-•	https://www.wa4e.com/code/rrc.zip (download)
-•	https://www.wa4e.com/code/rrc/ (source)
-•	Building JavaScript with Brendan Eich
-•	Internet Explorer Console Undefined Error (In video link, Basic JavaScript & Code Walk through JavaScript)
-•	JS Foundation (was jquery.org in video link, JavaScript - Document Object Model)
+  •	https://www.wa4e.com/code/javascript.zip (download)
+  •	https://www.wa4e.com/code/javascript (source)  
+  •	https://www.wa4e.com/code/rrc.zip (download)
+  •	https://www.wa4e.com/code/rrc/ (source)
+  •	Building JavaScript with Brendan Eich
+  •	Internet Explorer Console Undefined Error (In video link, Basic JavaScript & Code Walk through JavaScript)
+  •	JS Foundation (was jquery.org in video link, JavaScript - Document Object Model)
 
 
-Syllabus
-Week 1
-Introduction to JavaScript
+<h1>Syllabus</h1>
+
+<h2>Week 1 - Introduction to JavaScript</h2>
 We take a quick look at the JavaScript language. We assume that you already know PHP - so it is a pretty quick introduction focusing on what is different about JavaScript.
-17 videos, 10 readings
-•	Reading: Textbook & Course Resources
-•	Reading: Help Us Learn More About You!
-•	Reading: Syllabus
+
+<h3>17 videos, 10 readings</h3>
+  •	Reading: Textbook & Course Resources
+  •	Reading: Help Us Learn More About You!
+  •	Reading: Syllabus
 1.	Video: Welcome to the Course
 2.	Video: JavaScript Overview
 3.	Video: Basic JavaScript
@@ -78,12 +79,12 @@ We take a quick look at the JavaScript language. We assume that you already know
 7.	Video: Code Walkthrough: JavaScript
 8.	Video: JavaScript - Document Object Model
 9.	Video: Code Walkthrough: Document Object Model (DOM)
-•	Practice Quiz: JavaScript
+  •	Practice Quiz: JavaScript
 10.	Video: Code Walkthrough - Javascript/Profiles
-•	Reading: Assignment Specification: JavaScript/Profiles
-•	App Item: Peer-Grader: JavaScript / Profiles
-•	Reading: About This Section
-•	Reading: Installation Handouts
+  •	Reading: Assignment Specification: JavaScript/Profiles
+  •	App Item: Peer-Grader: JavaScript / Profiles
+  •	Reading: About This Section
+  •	Reading: Installation Handouts
 11.	Video: Installing MAMP on Macintosh
 12.	Video: Installing MAMP on Windows10
 13.	Video: Installing XAMPP on Windows10
@@ -93,8 +94,8 @@ We take a quick look at the JavaScript language. We assume that you already know
 15.	Video: Macintosh: Using NGrok with the Autograder
 16.	Video: Bonus: Brendan Eich - Inventing JavaScript
 17.	Video: Bonus: Office Hours Seattle, Washington
-Week 2
-JavaScript Objects
+
+<h2>Week 2 - JavaScript Objects</h2>
 We do a quick look at how the JavaScript language supports the Object-Oriented pattern. This is the second time we look at the OO pattern so we focus on the unique aspect of how JavaScript approaches OO.
 4 videos, 1 practice quiz
 1.	Video: JavaScript - Object Oriented Concepts
@@ -102,17 +103,18 @@ We do a quick look at how the JavaScript language supports the Object-Oriented p
 3.	Video: JavaScript - Object Life Cycle
 •	Practice Quiz: JavaScript Objects
 4.	Video: Bonus: Office Hours Seoul, South Korea
-Week 3
+
+### Week 3
 Using JQuery
 This is a brief introduction to the JQuery library which is widely used to do in-browser manipulation of the Document Object Model(DOM) and event handling.
-7 videos, 1 reading
+<h3>7 videos, 1 reading</h3>
 1.	Video: jQuery Basics
 2.	Video: Code Walkthrough: jQuery Basics
 3.	Video: Forms and jQuery
 4.	Video: Code Walkthrough: Forms and JQuery
 5.	Video: Code Walkthrough: Profiles, Positions and JQuery
-Reading: Assignment Specification: Profiles, Positions and JQuery
-App Item: Peer-Grader: Profiles, Positions and jQuery
+  * Reading: Assignment Specification: Profiles, Positions and JQuery
+  * App Item: Peer-Grader: Profiles, Positions and jQuery
 6.	Video: Bonus: John Resig - JQuery
 7.	Video: Bonus: Office Hours, Barcelona
 
@@ -139,4 +141,9 @@ This course uses an open and free textbook titled, "The Missing Link: An Introdu
 https://milneopentextbooks.org/the-missing-link-an-introduction-to-web-development-and-programming/
 Please utilize the Resources section for downloadable slides, web links, and other resources by module.
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+<h1 id="ch1">Week 1: Introduction to JavaScript</h1>
 
