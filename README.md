@@ -14,7 +14,7 @@ University of Michigan's JavaScript, jQuery and JSON.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of js-jquery-json.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h1 align="center">JavaScript, jQuery and JSON</h1>
 
-<h6 align="center">(by Colleen van Lent, PhD - University of Michigan)</h6>
+<h6 align="center">(by Charles Severance - University of Michigan)</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01.  logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
