@@ -41,26 +41,31 @@ We take a quick look at the JavaScript language. We assume that you already know
   <li>Understand how and when the code in an "onlick" attribute is executed</li>
 </ul>
 
-Welcome to JavaScript, jQuery, and JSON, taught by Charles Severance!
-In this course, we'll look at the JavaScript language, and how it supports the Object-Oriented pattern, with a focus on the unique aspect of how JavaScript approaches OO. We'll explore a brief introduction to the jQuery library, which is widely used to do in-browser manipulation of the Document Object Model (DOM) and event handling. You'll also learn more about JavaScript Object Notation (JSON), which is commonly used as a syntax to exchange data between code running on the server (i.e. in PHP) and code running in the browser (JavaScript/jQuery).
+<h4>Welcome to JavaScript, jQuery, and JSON, taught by Charles Severance!</h4>
+In this course, we'll look at the JavaScript language, and how it supports the Object-Oriented pattern, with a 
+focus on the unique aspect of how JavaScript approaches OO. We'll explore a brief introduction to the jQuery 
+library, which is widely used to do in-browser manipulation of the Document Object Model (DOM) and event 
+handling. You'll also learn more about JavaScript Object Notation (JSON), which is commonly used as a syntax 
+to exchange data between code running on the server (i.e. in PHP) and code running in the browser (JavaScript/jQuery).
+
 It is assumed that learners have already taken the Building Web Applications and Building Database Applications in PHP courses in this specialization.
 
-Module 1: JavaScript
-Slides
+<h3>Module 1: JavaScript</h3>
 
-•	01-JavaScript PPT File
+<h4>Slides</h4>
 
-•	01-JavaScript.pdf PDF File
+  - 01-JavaScript PPT File
+  - 01-JavaScript.pdf PDF File
 
-<h3>Links & Sample Code</h3>
+<h4>Links & Sample Code</h4>
 Introduction to JavaScript
-  •	https://www.wa4e.com/code/javascript.zip (download)
-  •	https://www.wa4e.com/code/javascript (source)  
-  •	https://www.wa4e.com/code/rrc.zip (download)
-  •	https://www.wa4e.com/code/rrc/ (source)
-  •	Building JavaScript with Brendan Eich
-  •	Internet Explorer Console Undefined Error (In video link, Basic JavaScript & Code Walk through JavaScript)
-  •	JS Foundation (was jquery.org in video link, JavaScript - Document Object Model)
+  - https://www.wa4e.com/code/javascript.zip (download)
+  - https://www.wa4e.com/code/javascript (source)  
+  - https://www.wa4e.com/code/rrc.zip (download)
+  - https://www.wa4e.com/code/rrc/ (source)
+  - Building JavaScript with Brendan Eich
+  - Internet Explorer Console Undefined Error (In video link, Basic JavaScript & Code Walk through JavaScript)
+  - JS Foundation (was jquery.org in video link, JavaScript - Document Object Model)
 
 
 <h1>Syllabus</h1>
