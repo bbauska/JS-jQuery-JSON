@@ -18,7 +18,7 @@ University of Michigan's JavaScript, jQuery and JSON.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01.  logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img src="./images/image001.png" 
+  <img src="./images/image001.jpg" 
   alt="logo." 
   style="border: 2px solid #000000;" 
   width="20%" />
