@@ -1,5 +1,5 @@
 ---
-title: "University of Michigan's JavaScript, jQuery & JSON"
+title: "6. University of Michigan's JavaScript, jQuery & JSON"
 author: "bbauska"
 date last editted: "1/11/2024 3+pm"
 output: 
@@ -7,7 +7,7 @@ output:
     with some style
 ---
 
-# UofM-JS-jQuery-JSON
+## UofM-JS-jQuery-JSON
 University of Michigan's JavaScript, jQuery and JSON.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
