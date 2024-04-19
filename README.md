@@ -45,16 +45,17 @@ so it is a pretty quick introduction focusing on what is different about JavaScr
 </ul>
 
 <h4>Welcome to JavaScript, jQuery, and JSON, taught by Charles Severance!</h4>
-In this course, we'll look at the JavaScript language, and how it supports the Object-
+
+<p>In this course, we'll look at the JavaScript language, and how it supports the Object-
 Oriented pattern, with a focus on the unique aspect of how JavaScript approaches OO. 
 We'll explore a brief introduction to the jQuery library, which is widely used to do 
 in-browser manipulation of the Document Object Model (DOM) and event handling. You'll 
 also learn more about JavaScript Object Notation (JSON), which is commonly used as a 
 syntax to exchange data between code running on the server (i.e. in PHP) and code 
-running in the browser (JavaScript/jQuery).
+running in the browser (JavaScript/jQuery).</p>
 
-It is assumed that learners have already taken the Building Web Applications and Building 
-Database Applications in PHP courses in this specialization.
+<p>It is assumed that learners have already taken the Building Web Applications and Building 
+Database Applications in PHP courses in this specialization.</p>
 
 <h3>Module 1: JavaScript</h3>
 
@@ -81,8 +82,8 @@ Introduction to JavaScript
 
 <h2>Week 1 - Introduction to JavaScript</h2>
 
-We take a quick look at the JavaScript language. We assume that you already know PHP - so 
-it is a pretty quick introduction focusing on what is different about JavaScript.
+<p>We take a quick look at the JavaScript language. We assume that you already know PHP - so 
+it is a pretty quick introduction focusing on what is different about JavaScript.</p>
 
 <h5>17 videos, 10 readings</h5>
 
@@ -113,9 +114,9 @@ it is a pretty quick introduction focusing on what is different about JavaScript
 
 <h2>Week 2 - JavaScript Objects</h2>
 
-We do a quick look at how the JavaScript language supports the Object-Oriented pattern. 
+<p>We do a quick look at how the JavaScript language supports the Object-Oriented pattern. 
 This is the second time we look at the OO pattern so we focus on the unique aspect of 
-how JavaScript approaches OO.
+how JavaScript approaches OO.</p>
 
 <h5>4 videos</h5>
 
@@ -126,8 +127,9 @@ how JavaScript approaches OO.
 
 <h2>Week 3 - Using JQuery</h2>
 
-This is a brief introduction to the JQuery library which is widely used to do in-browser 
-manipulation of the Document Object Model(DOM) and event handling.
+<p>This is a brief introduction to the JQuery library which is widely used to do in-browser 
+manipulation of the Document Object Model(DOM) and event handling.</p>
+
 <h5>7 videos, 1 reading</h5>
 
 1.	jQuery Basics
@@ -142,9 +144,9 @@ manipulation of the Document Object Model(DOM) and event handling.
 
 <h2>Week 4 - JSON - JavaScript Object Notation</h2>
 
-In this section we look at JavaScript Object Notation (JSON). JSON is commonly used as a 
+<p>In this section we look at JavaScript Object Notation (JSON). JSON is commonly used as a 
 syntax to exchange data between code running on the server (i.e. in PHP) and code running 
-in the browser (JavaScript/JQuery).
+in the browser (JavaScript/JQuery).</p>
 
 <h5>9 videos, 3 readings</h5>
 
@@ -237,34 +239,37 @@ we format things and make them look pretty in browsers. I kept saying the Docume
 Model (DOM), but now we're going to write code that runs in the browser. That's the distinct 
 difference. Now, if you're running something like Node.js, that means that you are actually 
 running server based JavaScript, but for now we're going to talk about JavaScript as a 
-browser based tool. Now, JavaScript was invented for the browser. And for its first 15 years, it pretty much ran in the 
-browser. It was never intended to be only in the browser. But it really has been a browser only programming 
-language for a long time. And its use in servers is creeping up now. And so the concept of HTML and CSS and
-a Document Object Model has been part and parcel of what JavaScript has been about from its inception.</p>
+browser based tool. Now, JavaScript was invented for the browser. And for its first 15 
+years, it pretty much ran in the browser. It was never intended to be only in the browser. 
+But it really has been a browser only programming language for a long time. And its use in 
+servers is creeping up now. And so the concept of HTML and CSS and a Document Object Model 
+has been part and parcel of what JavaScript has been about from its inception.</p>
 
-From the first moment that we ever had JavaScript, it's been about the Document Object Model and how to manipulate 
-the Document Object Model. And add interactivity without request response cycles. And so up till now, all the 
-interactivity we've been adding has been by displaying a whole new page of HTML. And sometimes we make it look 
-like the page hasn't changed, because everything lines up and some little thing changes, but really it's a full 
-request response cycle. Now in JavaScript, we're going to learn to play with this Document Object Model and 
-change what we see in the browser quite dynamically, okay? So the first thing we're going to learn is we're going 
-to learn about JavaScript as a programming language. And then we're going to learn how to use it in the browser. So JavaScript has a very different
-history than PHP or Python. And I like to share with you the histories
-of all these programming languages to give you a sense of where they came from. Because I think it really helps you
-understand what they're all about. So JavaScript is about 20 years old now. It was introduced by Netscape in 1995,
-and Brendan Eich is the developer of it. And if you watch my video about
-Brendan Eich, you will see that it's very, very different than the video that
-I encourage you to watch with Rasmus Lerdorf, the creator of PHP. PHP is designed to be a practical and
-continually evolving toolkit. So PHP itself is supposed to be a toolkit. Rasmus didn't have any formal education
-in how to build languages, but Brendan has got, I think,
-a PhD in physics or something like that. And he's like a math genius and
-he's a language genius and he has been a student of
-programming languages. And so the idea of JavaScript was that
-it was supposed to be built as a toy and that's why it's kind of named JavaScript. There's this other language called Java,
-which you may or may not know. It's a lot harder than JavaScript and
-JavaScript was suppose to be the easy, baby version of it. But in many ways,
-Brendan was such a brilliant computer scientist that he sneaked so
-many wonderful things. And when we talk about
+<p>From the first moment that we ever had JavaScript, it's been about the Document Object 
+Model and how to manipulate the Document Object Model. And add interactivity without request 
+response cycles. And so up till now, all the interactivity we've been adding has been by 
+displaying a whole new page of HTML. And sometimes we make it look like the page hasn't 
+changed, because everything lines up and some little thing changes, but really it's a full 
+request response cycle. Now in JavaScript, we're going to learn to play with this Document 
+Object Model and change what we see in the browser quite dynamically, okay? So the first 
+thing we're going to learn is we're going to learn about JavaScript as a programming 
+language. And then we're going to learn how to use it in the browser.</p>
+
+<p>JavaScript has a very different history than PHP or Python. And I like to share with 
+you the histories of all these programming languages to give you a sense of where they 
+came from. Because I think it really helps you understand what they're all about. So 
+JavaScript is about 20 years old now. It was introduced by Netscape in 1995, and Brendan 
+Eich is the developer of it. And if you watch my video about Brendan Eich, you will see 
+that it's very, very different than the video that I encourage you to watch with Rasmus 
+Lerdorf, the creator of PHP. PHP is designed to be a practical and continually evolving 
+toolkit. So PHP itself is supposed to be a toolkit. Rasmus didn't have any formal 
+education in how to build languages, but Brendan has got, I think, a PhD in physics. And 
+he's a math genius and he's a language genius and he has been a student of programming 
+languages. And so the idea of JavaScript was that it was supposed to be built as a toy 
+and that's why it's kind of named JavaScript. There's this other language called Java,
+which you may or may not know. It's a lot harder than JavaScript and JavaScript was 
+suppose to be the easy, baby version of it. But in many ways, Brendan was such a brilliant 
+computer scientist that he sneaked so many wonderful things. And when we talk about
 object-oriented JavaScript, you'll see that it's very different
 than all the other object-oriented things that we've talked about. Because it has a different sort of
 foundational notion inside of it, called first class functions. And so it's a very theoretically beautiful
@@ -272,14 +277,12 @@ language compared to some of these other ones that were kind of compromises,
 and very practical, but compromises. And there's a standardization body called
 ECMA that standardizes JavaScript, and so you kind of see it named as ECMAScript. And if you see it named ECMAScript, don't
 feel bad about that, it's all the same. And so the idea is that JavaScript
-is a programming language that runs in the browser. And so if you compare and contrast this
+is a programming language that runs in the browser. And if you compare and contrast this
 with PHP, which we get done talking about. We'd say &lt;?php and
 then all this code would run in the server and produce some output that
-would go to the browser, okay? But that's not what's going to
-happen in JavaScript. In JavaScript you are having your HTML tags. The JavaScript is actual text that comes from the server and then as the DOM is being parsed it reads this and runs this code. So in between the script and end script tag, we are running the language JavaScript. Now, it's not just about writing output,
-this happens to be writing output. There is this thing called document,
-this is a variable that's pre-set for us in JavaScript in the browser. And it is an object that allows us to touch the Document Object Model. So I keep saying DOM, well DOM and document are the same thing. So what this is is saying,
-write to the DOM, a paragraph. And so that takes this text and
+would go to the browser, okay? But that's not what's going to happen in JavaScript. In 
+JavaScript you are having your HTML tags. The JavaScript is actual text that comes from the server and then as the DOM is being parsed it reads this and runs this code. In between the script and end script tag, we are running the language JavaScript. Now, it's not just about writing output,
+this happens to be writing output. There is this thing called document, this is a variable that's pre-set for us in JavaScript in the browser. And it is an object that allows us to touch the Document Object Model. I keep saying DOM, well DOM and document are the same thing. So what this is is saying, write to the DOM, a paragraph. And so that takes this text and
 it puts it here. So 'One Paragraph' came from HTML. 'Hello World' came from JavaScript. And then 'Second Paragraph'
 came from back from HTML. And so it's not like the output of this,
 it's not like PHP, where the output is automatically
@@ -317,37 +320,31 @@ it's an alert Hi, and return false. Now see, it just runs it, two line of JavaSc
 
 <h3 id="ch1-01">Basic JavaScript</h3>
 
-So like in any programming language,
-we can make syntax errors. And it's a little different, and so you'll
-notice that one of the things I have had to bug you about in
-every programming language. Like in PHP you had to set the error
-display message in the php.ini file, you had to set the error mode on your
-PDO so that you would see the errors. The problem with having errors,
-is you've gotta see them as a developer. And so JavaScript is kind of weird, in that it runs in the browser as a sort
-of a side effect of loading a web page. And the person looking at the browser
-is usually not the developer. And so the default is that the browsers
-just hide all of the errors. Sometimes they'll put a little red mark in
-the lower right hand corner or something, or a question mark or something,
-but you don't see it. And the reason is, is the person who
-is standing looking at the browser is not likely the person who wrote
-the code in the first place. And they're probably not a programmer,
-they're the end user of your application. And so what happens is, it detects an
-error and it stops the script execution, but it doesn't notify you. There's no error log like we have in PHP,
-etc, etc. So it's important to know how,
-when you're writing software and doing development,
-how you can catch and notice errors. because you're going to make mistakes
-as you're developing JavaScript. So this is an example of
-some broken JavaScript code. So we have two script tags,
-two script tags. And this script tag has a mistake, it has
-a single quote ending a double quote. Single quotes and double quotes
-are equivalent in JavaScript, which is actually quite nice,
-and so that's a broken tag. And so what happens is, is that it comes
+<p>So like in any programming language, we can make syntax errors. And it's a little 
+different, and so you'll notice that one of the things I have had to bug you about in
+every programming language. Like in PHP you had to set the error display message in the 
+php.ini file, you had to set the error mode on your PDO so that you would see the errors. 
+The problem with having errors, is you've gotta see them as a developer. And so JavaScript 
+is kind of weird, in that it runs in the browser as a sort of a side effect of loading a 
+web page. And the person looking at the browser is usually not the developer. And so the 
+default is that the browsers just hide all of the errors. Sometimes they'll put a little 
+red mark in the lower right hand corner or something, or a question mark or something, but 
+you don't see it. And the reason is, is the person who is standing looking at the browser 
+is not likely the person who wrote the code in the first place. And they're probably not 
+a programmer, they're the end user of your application. And so what happens is, it detects an
+error and it stops the script execution, but it doesn't notify you. There's no error log 
+like we have in PHP, etc, etc. So it's important to know how, when you're writing software 
+and doing development, how you can catch and notice errors. because you're going to make 
+mistakes as you're developing JavaScript. So this is an example of some broken JavaScript 
+code. So we have two script tags, two script tags. And this script tag has a mistake, it 
+has a single quote ending a double quote. Single quotes and double quotes are equivalent 
+in JavaScript, which is actually quite nice, and so that's a broken tag. And so what 
+happens is, is that it comes
 in here, and it starts this script. And it's running it, but this is a syntax
-error so it doesn't run, and it blows up. And what it does, is it doesn't run
-any of the remaining script codes. So it never says, I am good. It basically gets out of that script
-block, so that's what happens. And there's trys, and excepts, and things like that in JavaScript,
-and we can talk about that. But in this case,
-we don't have a try or an except, and so it just stops that block. So this is one block of JavaScript,
+error so it doesn't run. And what it does, is it doesn't run any of the remaining script codes. 
+So it never says, I am good. It basically gets out of that script block, so that's what happens. 
+And there's tries, and excepts, and things like that in JavaScript, and we can talk about that. 
+But in this case, we don't have a try or an except, and so it just stops that block. This is one block of JavaScript,
 this is another JavaScript. What it doesn't do, is it doesn't
 stop all JavaScript processing, it just sort of blows up this block, okay? And so even though it comes down here and
 gets to paragraph two, then this runs. And this is good JavaScript, and it runs. And so that's why we see this alert, Second time, is that hope
@@ -459,7 +456,7 @@ finding my way around. So I don't think it's really great for
 beginners, but once you get good at it,
 it's a really powerful, powerful environment to figure out
 what's going wrong with your JavaScript. So up next, we're going to talk
-about JavaScript kind of as a programming language.
+about JavaScript kind of as a programming language.</p>
 
 <h3>JavaScript - Core Language Features</h3>
 So as I mentioned at the beginning,
@@ -513,7 +510,7 @@ that has HTML and it's got double quotes. Single quotes for the string, double q
 because we're writing HTML. And so, reserve the double quotes for
 HTML whenever you possibly can. Numeric constants work the way
 that you would expect. And now we'll talk about some of the features
-of the JavaScript programming language.
+of the JavaScript programming language.</p>
 
 <h3>JavaScript - Variables and Expressions</h3>
 So one of the important parts of any programming language is the operators and the expressions. 
