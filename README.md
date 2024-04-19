@@ -28,7 +28,8 @@ output:
 <h2>JavaScript, jQuery and JSON</h2>
 <h6>By Charles Russell Severance, Clinical Professor University of Michigan</h6>
 
-We take a quick look at the JavaScript language. We assume that you already know PHP - so it is a pretty quick introduction focusing on what is different about JavaScript.
+We take a quick look at the JavaScript language. We assume that you already know PHP - 
+so it is a pretty quick introduction focusing on what is different about JavaScript.
 
 <h4>Learning Objectives</h4>
 <ul>
@@ -37,19 +38,23 @@ We take a quick look at the JavaScript language. We assume that you already know
   <li>Build and debug simple JavaScript code snippets</li>
   <li>Demonstrate how to debug JavaScript errors using the browser developer console</li>
   <li>Give examples of JavaScript manipulating the HTML Document Object Model (DOM)</li>
-  <li>Describe the history of the JavaScript language, where and when it was developed, and its relationship to Java</li>
+  <li>Describe the history of the JavaScript language, where and when it was developed, 
+    and its relationship to Java</li>
   <li>Explain the asynchronous nature of JavaScript in the browser</li>
   <li>Understand how and when the code in an "onlick" attribute is executed</li>
 </ul>
 
 <h4>Welcome to JavaScript, jQuery, and JSON, taught by Charles Severance!</h4>
-In this course, we'll look at the JavaScript language, and how it supports the Object-Oriented pattern, with a 
-focus on the unique aspect of how JavaScript approaches OO. We'll explore a brief introduction to the jQuery 
-library, which is widely used to do in-browser manipulation of the Document Object Model (DOM) and event 
-handling. You'll also learn more about JavaScript Object Notation (JSON), which is commonly used as a syntax 
-to exchange data between code running on the server (i.e. in PHP) and code running in the browser (JavaScript/jQuery).
+In this course, we'll look at the JavaScript language, and how it supports the Object-
+Oriented pattern, with a focus on the unique aspect of how JavaScript approaches OO. 
+We'll explore a brief introduction to the jQuery library, which is widely used to do 
+in-browser manipulation of the Document Object Model (DOM) and event handling. You'll 
+also learn more about JavaScript Object Notation (JSON), which is commonly used as a 
+syntax to exchange data between code running on the server (i.e. in PHP) and code 
+running in the browser (JavaScript/jQuery).
 
-It is assumed that learners have already taken the Building Web Applications and Building Database Applications in PHP courses in this specialization.
+It is assumed that learners have already taken the Building Web Applications and Building 
+Database Applications in PHP courses in this specialization.
 
 <h3>Module 1: JavaScript</h3>
 
@@ -59,6 +64,7 @@ It is assumed that learners have already taken the Building Web Applications and
   - 01-JavaScript.pdf PDF File
 
 <h4>Links & Sample Code</h4>
+
 Introduction to JavaScript
 
   - https://www.wa4e.com/code/javascript.zip (download)
@@ -66,7 +72,8 @@ Introduction to JavaScript
   - https://www.wa4e.com/code/rrc.zip (download)
   - https://www.wa4e.com/code/rrc/ (source)
   - Building JavaScript with Brendan Eich
-  - Internet Explorer Console Undefined Error (In video link, Basic JavaScript & Code Walk through JavaScript)
+  - Internet Explorer Console Undefined Error (In video link, Basic JavaScript &amp; Code 
+    Walk through JavaScript)
   - JS Foundation (was jquery.org in video link, JavaScript - Document Object Model)
 
 
@@ -74,7 +81,8 @@ Introduction to JavaScript
 
 <h2>Week 1 - Introduction to JavaScript</h2>
 
-We take a quick look at the JavaScript language. We assume that you already know PHP - so it is a pretty quick introduction focusing on what is different about JavaScript.
+We take a quick look at the JavaScript language. We assume that you already know PHP - so 
+it is a pretty quick introduction focusing on what is different about JavaScript.
 
 <h5>17 videos, 10 readings</h5>
 
@@ -105,7 +113,9 @@ We take a quick look at the JavaScript language. We assume that you already know
 
 <h2>Week 2 - JavaScript Objects</h2>
 
-We do a quick look at how the JavaScript language supports the Object-Oriented pattern. This is the second time we look at the OO pattern so we focus on the unique aspect of how JavaScript approaches OO.
+We do a quick look at how the JavaScript language supports the Object-Oriented pattern. 
+This is the second time we look at the OO pattern so we focus on the unique aspect of 
+how JavaScript approaches OO.
 
 <h5>4 videos</h5>
 
@@ -116,7 +126,8 @@ We do a quick look at how the JavaScript language supports the Object-Oriented p
 
 <h2>Week 3 - Using JQuery</h2>
 
-This is a brief introduction to the JQuery library which is widely used to do in-browser manipulation of the Document Object Model(DOM) and event handling.
+This is a brief introduction to the JQuery library which is widely used to do in-browser 
+manipulation of the Document Object Model(DOM) and event handling.
 <h5>7 videos, 1 reading</h5>
 
 1.	Video: jQuery Basics
@@ -131,7 +142,9 @@ This is a brief introduction to the JQuery library which is widely used to do in
 
 <h2>Week 4 - JSON - JavaScript Object Notation</h2>
 
-In this section we look at JavaScript Object Notation (JSON). JSON is commonly used as a syntax to exchange data between code running on the server (i.e. in PHP) and code running in the browser (JavaScript/JQuery).
+In this section we look at JavaScript Object Notation (JSON). JSON is commonly used as a 
+syntax to exchange data between code running on the server (i.e. in PHP) and code running 
+in the browser (JavaScript/JQuery).
 
 <h5>9 videos, 3 readings</h5>
 
@@ -149,60 +162,72 @@ In this section we look at JavaScript Object Notation (JSON). JSON is commonly u
   - Reading: Keep Learning with Michigan Online
 
 <h4>Textbook & Course Resources</h4>
-This course uses an open and free textbook titled, "The Missing Link: An Introduction to Web Development and Programming".
+This course uses an open and free textbook titled, "The Missing Link: An Introduction 
+to Web Development and Programming".
 https://milneopentextbooks.org/the-missing-link-an-introduction-to-web-development-and-programming/
-Please utilize the Resources section for downloadable slides, web links, and other resources by module.
+Please utilize the Resources section for downloadable slides, web links, and other 
+resources by module.
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
 <h1 id="ch1">Week 1: Introduction to JavaScript</h1>
+
 <h3>Welcome to the Course</h3>
 
-<p>Welcome to JavaScript, jQuery and JSON. This is the fourth class that we're teaching. And at the end of the 
-previous class, you sort of worked on a CRUD application which really made it so that you connected PHP to the 
-database in a user interface. And we introduced the concept of the model-view-controller, where the model is 
-the database, the view is what the user sees, and the controllers, sort of the magic that shuffles things 
-back and forth, and redirects the user and all that stuff. And so, in this class, what we're really doing 
-is what the industry and web applications is doing, and that's playing with how we partition the 
-model-view-controller across the browser, the server, and the database. Everything you've done so far is 
-rendered HTML in PHP. That's the simple thing. And what we're going to explore in this class, is moving 
-some of the rendering of the HTML from the PHP into the browser. So, we're going to learn JavaScript, okay.</p>
+<p>Welcome to JavaScript, jQuery and JSON. This is the fourth class that we're teaching. And at 
+the end of the previous class, you worked on a CRUD application which made it so that you 
+connected PHP to the database in a user interface. And we introduced the concept of the 
+model-view-controller, where the model is the database, the view is what the user sees, and  
+the controllers, sort of the magic that shuffles things back and forth, and redirects the 
+user and all that stuff. In this class, what we're doing is what the industry and web 
+applications is doing, and that's playing with how we partition the model-view-controller 
+across the browser, the server, and the database. Everything you've done so far is rendered 
+HTML in PHP. That's the simple thing. And what we're going to explore in this class, is 
+moving some of the rendering of the HTML from the PHP into the browser. So we're going to 
+learn JavaScript.</p>
 
-<p>And so, building that HTML mark up and sending to the browser's old school and it's something you should know 
-how to do. But, to be cool and to be interactive and dynamic, to build little chats, the little red things that 
-pop up without having to do full page refreshes, that takes interactivity, and that takes JavaScript, and that 
-takes jQuery. And so, if you will build a chat application and you'll realize that, oh, that chat window can 
-sort of go off in the background, get a new chat, and it just shows up in the window. And so, all this stuff 
-where you don't have to do full request-response cycles and we can repaint parts of web pages that repaint the 
-whole web pages, that's the kind of thing we're going to learn. And that's kind of the fun aspect of modern web 
-applications. So, we need to learn JavaScript, jQuery, which is a JavaScript library that helps talking to the 
-document object model and sending that back and forth, and JSON, which is a format that we can cause JavaScript 
-to actually read data from the database and then format it inside the browser. So, we're going to do all kinds
-of cool things. And that's how we're going to accomplish all these more interactive user interactions.</p>
+<p>And so, building that HTML mark up and sending to the browser's old school and it's 
+something you should know how to do. But, to be cool and to be interactive and dynamic, 
+to build little chats, the little red things that pop up without having to do full page 
+refreshes, that takes interactivity, and that takes JavaScript, and that takes jQuery. 
+And so, if you will build a chat application and you'll realize that, chat window can 
+go off in the background, get a new chat, and it shows up in the window. So, all this 
+stuff where you don't have to do full request-response cycles and we can repaint parts 
+of web pages that repaint the whole web pages, that's the kind of thing we're going to 
+learn. And that's the fun aspect of modern web applications. We need to learn JavaScript, 
+jQuery, which is a JavaScript library that helps talking to the document object model and 
+sending that back and forth, and JSON, which is a format that we can cause JavaScript to 
+read data from the database and then format it inside the browser. We're going to do all 
+kinds of cool things. And that's how we're going to accomplish all these more interactive 
+user interactions.</p>
   
-<p>This course is probably a little more challenging than the other courses that we've done so far. Just because 
-you better know what you're doing, and it's like, here's some JavaScript and boy, we're going to do this stuff, 
-and now you got to change the DOM, and we move pretty quickly through each of the assignments and the assignments 
-are a little longer. So, be ready to spend a little bit more time working on this course, be building slightly 
-larger applications. But, this is where you sort of move into a situation where you're going to be able to walk 
-into someone doing web development, or an organization do web development, you're going to know the stuff that's 
-in this. You need to know the stuff that's in this class to sort of consider yourself a modern web developer.</p>
+<p>This course is probably a little more challenging than the other courses that we've 
+done so far. Just because you better know what you're doing, and it's like, here's some 
+JavaScript and boy, we're going to do this stuff, and now you got to change the DOM, and 
+we move pretty quickly through each of the assignments and the assignments are a little 
+longer. So, be ready to spend a little bit more time working on this course, be building 
+slightly larger applications. But, this is where you move into a situation where you're 
+going to be able to walk into someone doing web development, or an organization do web 
+development, you're going to know the stuff that's in this. You need to know the stuff 
+that's in this class to sort of consider yourself a modern web developer.</p>
 
-So, invest a little more time, I think it's worth it and if you got this far and you've made it through those first 
-three classes, I'm proud of you, and I'm glad that you're still interested, and we'll see at the end of this one, 
-because at the end of this one, you're going to know a whole lot of stuff.
+<p>Invest a little more time, I think it's worth it and if you got this far and you've 
+made it through those first three classes, I'm proud of you, and I'm glad that you're 
+still interested, and we'll see at the end of this one, because at the end of this one, 
+you're going to know a whole lot of stuff.</p>
 
 <h3>JavaScript Overview</h3>
 
-So now we're starting to look at the JavaScript programming language. There's a lot of people that might say that the 
-first programming language that you should learn, and maybe even the only programming language you should learn, is 
-JavaScript. And I totally disagree with that. JavaScript is a wonderful language. And it runs in the browser. And with 
-things like Node.js it's increasingly running in the server. And it's a great language. But it's sort of a powerful 
-language. It's not a easy to learn language. I mean, you really need to understand what's going on. It's a beautifully 
-built language. And I'll try to show you some of the really awesome things that are true about JavaScript that I think
-you can only appreciate after you learn a couple other languages like Python and PHP, SQL. And hopefully this is your 
+Now we're looking at the JavaScript programming language. There's a lot of people that might say 
+that the first programming language that you should learn, and maybe even the only 
+ programming language you should learn, is JavaScript. And I totally disagree with that. JavaScript 
+ is a wonderful language. And it runs in the browser. And with things like Node.js it's increasingly 
+ running in the server. And it's a great language. But it's a powerful language. It's not a easy to 
+ learn language. I mean, you really need to understand what's going on. And I'll try to show you some
+ of the awesome things that are true about JavaScript that I think you can only appreciate after you learn a couple other
+ languages like Python and PHP, SQL. And hopefully this is your 
 fourth or fifth programming language that you've actually learned. The other thing that we're doing now is we're 
 actually moving in a whole new world, right? We've been programming, we learned SQL, which is the language talking to 
 databases. We learned PHP, which is the language of this server code that we happened to have chosen. We've talked 
