@@ -1,15 +1,14 @@
 ---
 title: "6. University of Michigan's JavaScript, jQuery & JSON"
 author: "bbauska"
-date last editted: "1/11/2024 3+pm"
+date last editted: "4/19/2024 Fri 12+pm"
 output: 
   markdown:
     with some style
 ---
 
-<h2>UofM-JS-jQuery-JSON</h2>
-
-<h6>University of Michigan's JavaScript, jQuery and JSON</h6>
+<!-- <h2>UofM-JS-jQuery-JSON</h2> -->
+<!-- <h6>University of Michigan's JavaScript, jQuery and JSON</h6> -->
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of js-jquery-json.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
