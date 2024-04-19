@@ -7,8 +7,9 @@ output:
     with some style
 ---
 
-## UofM-JS-jQuery-JSON
-University of Michigan's JavaScript, jQuery and JSON.
+<h2>UofM-JS-jQuery-JSON</h2>
+
+<h6>University of Michigan's JavaScript, jQuery and JSON</h6>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of js-jquery-json.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
