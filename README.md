@@ -89,7 +89,6 @@ We take a quick look at the JavaScript language. We assume that you already know
 7.	Video: Code Walkthrough: JavaScript
 8.	Video: JavaScript - Document Object Model
 9.	Video: Code Walkthrough: Document Object Model (DOM)
-  - Practice Quiz: JavaScript
 10.	Video: Code Walkthrough - Javascript/Profiles
   - Reading: Assignment Specification: JavaScript/Profiles
   - App Item: Peer-Grader: JavaScript / Profiles
@@ -108,12 +107,11 @@ We take a quick look at the JavaScript language. We assume that you already know
 
 We do a quick look at how the JavaScript language supports the Object-Oriented pattern. This is the second time we look at the OO pattern so we focus on the unique aspect of how JavaScript approaches OO.
 
-<h5>4 videos, 1 practice quiz</h5>
+<h5>4 videos</h5>
 
 1.	Video: JavaScript - Object Oriented Concepts
 2.	Video: JavaScript - Building Objects
 3.	Video: JavaScript - Object Life Cycle
-  - Practice Quiz: JavaScript Objects
 4.	Video: Bonus: Office Hours Seoul, South Korea
 
 <h2>Week 3 - Using JQuery</h2>
@@ -135,7 +133,7 @@ This is a brief introduction to the JQuery library which is widely used to do in
 
 In this section we look at JavaScript Object Notation (JSON). JSON is commonly used as a syntax to exchange data between code running on the server (i.e. in PHP) and code running in the browser (JavaScript/JQuery).
 
-<h5>9 videos, 3 readings, 1 practice quiz</h5>
+<h5>9 videos, 3 readings</h5>
 
 1.	Video: JavaScript Object Notation (JSON)
 2.	Video: JSON and jQuery
@@ -145,8 +143,6 @@ In this section we look at JavaScript Object Notation (JSON). JSON is commonly u
 6.	Video: Code WalkThrough - JSON CRUD
 7.	Video: Code Walkthrough: Profile, Positions, Education, and JSON
   - Reading: Assignment Specification: Profiles, Positions, and Education
-  - App Item: Peer-Grader: Profiles, Positions, and Education
-  - Practice Quiz: JQuery & JSON
 8.	Video: Bonus Office Hours: Montreal, Quebec
 9.	Video: Fun: Chuck Pretends he is a Travel Show (Paris)
   - Reading: Post-Course Survey
