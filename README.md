@@ -16,10 +16,11 @@ University of Michigan's JavaScript, jQuery and JSON.
 
 <h6 align="center">(by Charles Severance - University of Michigan)</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01.  logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. json & jquery logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img src="./images/image001.jpg" 
-  alt="logo." 
+  title="jQuery and JSON logo"
+  alt="jQuery and JSON logo."
   style="border: 2px solid #000000;" 
   width="20%" />
 </p>
@@ -75,7 +76,7 @@ Introduction to JavaScript
 
 We take a quick look at the JavaScript language. We assume that you already know PHP - so it is a pretty quick introduction focusing on what is different about JavaScript.
 
-<h3>17 videos, 10 readings</h3>
+<h5>17 videos, 10 readings</h5>
 
   - Reading: Textbook & Course Resources
   - Reading: Syllabus
@@ -106,7 +107,8 @@ We take a quick look at the JavaScript language. We assume that you already know
 <h2>Week 2 - JavaScript Objects</h2>
 
 We do a quick look at how the JavaScript language supports the Object-Oriented pattern. This is the second time we look at the OO pattern so we focus on the unique aspect of how JavaScript approaches OO.
-<h3>4 videos, 1 practice quiz</h3>
+
+<h5>4 videos, 1 practice quiz</h5>
 
 1.	Video: JavaScript - Object Oriented Concepts
 2.	Video: JavaScript - Building Objects
@@ -117,7 +119,7 @@ We do a quick look at how the JavaScript language supports the Object-Oriented p
 <h2>Week 3 - Using JQuery</h2>
 
 This is a brief introduction to the JQuery library which is widely used to do in-browser manipulation of the Document Object Model(DOM) and event handling.
-<h3>7 videos, 1 reading</h3>
+<h5>7 videos, 1 reading</h5>
 
 1.	Video: jQuery Basics
 2.	Video: Code Walkthrough: jQuery Basics
@@ -132,7 +134,8 @@ This is a brief introduction to the JQuery library which is widely used to do in
 <h2>Week 4 - JSON - JavaScript Object Notation</h2>
 
 In this section we look at JavaScript Object Notation (JSON). JSON is commonly used as a syntax to exchange data between code running on the server (i.e. in PHP) and code running in the browser (JavaScript/JQuery).
-<h3>9 videos, 3 readings, 1 practice quiz</h3>
+
+<h5>9 videos, 3 readings, 1 practice quiz</h5>
 
 1.	Video: JavaScript Object Notation (JSON)
 2.	Video: JSON and jQuery
