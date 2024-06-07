@@ -1,7 +1,7 @@
 ---
-title: "6. University of Michigan's JavaScript, jQuery & JSON"
+title: "University of Michigan's JavaScript, jQuery & JSON"
 author: "bbauska"
-date last editted: "4/19/2024 Fri 3+pm"
+date last editted: "6/06/2024 Thu 4+pm"
 output: 
   markdown:
     with some style
@@ -28,8 +28,8 @@ output:
 <h2>JavaScript, jQuery and JSON</h2>
 <h6>By Charles Russell Severance, Clinical Professor University of Michigan</h6>
 
-We take a quick look at the JavaScript language. We assume that you already know PHP - 
-so it is a pretty quick introduction focusing on what is different about JavaScript.
+<p>We take a quick look at the JavaScript language. We assume that you already know PHP - 
+so it is a pretty quick introduction focusing on what is different about JavaScript.</p>
 
 <h4>Learning Objectives</h4>
 <ul>
@@ -61,22 +61,25 @@ Database Applications in PHP courses in this specialization.</p>
 
 <h4>Slides</h4>
 
-  - 01-JavaScript PPT File
-  - 01-JavaScript.pdf PDF File
+<ul>
+  <li>01-JavaScript PPT File</li>
+  <li>01-JavaScript.pdf PDF File</li>
+</ul>
 
 <h4>Links & Sample Code</h4>
 
-Introduction to JavaScript
+<h3>Introduction to JavaScript</h3>
 
-  - https://www.wa4e.com/code/javascript.zip (download)
-  - https://www.wa4e.com/code/javascript (source)  
-  - https://www.wa4e.com/code/rrc.zip (download)
-  - https://www.wa4e.com/code/rrc/ (source)
-  - Building JavaScript with Brendan Eich
-  - Internet Explorer Console Undefined Error (In video link, Basic JavaScript &amp; Code 
-    Walk through JavaScript)
-  - JS Foundation (was jquery.org in video link, JavaScript - Document Object Model)
-
+<ul>
+  <li><a href="https://www.wa4e.com/code/javascript.zip">WA4E JavaScript zip (download)</a></li>
+  <li><a href="https://www.wa4e.com/code/javascript">WA4E JavaScript source code</a></li>
+  <li><a href="https://www.wa4e.com/code/rrc.zip">WA4E RRC zip (download)</a></li>
+  <li><a href="https://www.wa4e.com/code/rrc/">WA4E RRC source code</a></li>
+  <li>Building JavaScript with Brendan Eich</li>
+  <li>Internet Explorer Console Undefined Error (In video link, Basic JavaScript &amp; Code 
+    Walk through JavaScript)</li>
+  <li>JS Foundation (was jquery.org in video link, JavaScript - Document Object Model)</li>
+</ul>
 
 <h1>Syllabus</h1>
 
@@ -87,8 +90,11 @@ it is a pretty quick introduction focusing on what is different about JavaScript
 
 <h5>17 videos, 10 readings</h5>
 
-  - Reading: Textbook & Course Resources
-  - Reading: Syllabus
+<ul>
+  <li>Reading: Textbook & Course Resources</li>
+  <li>Reading: Syllabus</li>
+</ul>
+
 1.	Welcome to the Course
 2.	JavaScript Overview
 3.	Basic JavaScript
@@ -99,14 +105,22 @@ it is a pretty quick introduction focusing on what is different about JavaScript
 8.	JavaScript - Document Object Model
 9.	Code Walkthrough: Document Object Model (DOM)
 10.	Code Walkthrough - Javascript/Profiles
-  - Reading: Assignment Specification: JavaScript/Profiles
-  - App Item: Peer-Grader: JavaScript / Profiles
-  - Reading: About This Section
-  - Reading: Installation Handouts
+
+<ul>
+  <li>Reading: Assignment Specification: JavaScript/Profiles</li>
+  <li>App Item: Peer-Grader: JavaScript / Profiles</li>
+  <li>Reading: About This Section</li>
+  <li>Reading: Installation Handouts</li>
+</ul>
+
 11.	Installing MAMP on Macintosh
 12.	Installing MAMP on Windows10
 13.	Installing XAMPP on Windows10
-  - Reading: Installing LAMP On Linux
+
+<ul>
+  <li>Reading: Installing LAMP On Linux</li>
+</ul>
+
 14.	Windows: Using NGrok with the Autograder
 15.	Macintosh: Using NGrok with the Autograder
 16.	Bonus: Brendan Eich - Inventing JavaScript
@@ -137,8 +151,12 @@ manipulation of the Document Object Model(DOM) and event handling.</p>
 3.	Forms and jQuery
 4.	Code Walkthrough: Forms and JQuery
 5.	Code Walkthrough: Profiles, Positions and JQuery
-  - Reading: Assignment Specification: Profiles, Positions and JQuery
-  - App Item: Peer-Grader: Profiles, Positions and jQuery
+
+<ul>
+  <li>Reading: Assignment Specification: Profiles, Positions and JQuery</li>
+  <li>App Item: Peer-Grader: Profiles, Positions and jQuery</li>
+</ul>
+
 6.	Video: Bonus: John Resig - JQuery
 7.	Video: Bonus: Office Hours, Barcelona
 
@@ -157,17 +175,25 @@ in the browser (JavaScript/JQuery).</p>
 5.	Code Walkthrough: JSON Chat
 6.	Code WalkThrough - JSON CRUD
 7.	Code Walkthrough: Profile, Positions, Education, and JSON
-  - Reading: Assignment Specification: Profiles, Positions, and Education
+
+<ul>
+  <li>Reading: Assignment Specification: Profiles, Positions, and Education</li>
+</ul>
+
 8.	Bonus Office Hours: Montreal, Quebec
 9.	Fun: Chuck Pretends he is a Travel Show (Paris)
-  - Reading: Keep Learning with Michigan Online
+
+<ul>
+  <li>Reading: Keep Learning with Michigan Online</li>
+</ul>
 
 <h4>Textbook & Course Resources</h4>
-This course uses an open and free textbook titled, "The Missing Link: An Introduction 
-to Web Development and Programming".
-https://milneopentextbooks.org/the-missing-link-an-introduction-to-web-development-and-programming/
-Please utilize the Resources section for downloadable slides, web links, and other 
-resources by module.
+
+<p>This course uses an open and free textbook titled, "The Missing Link: An Introduction 
+to <a href="https://milneopentextbooks.org/the-missing-link-an-introduction-to-web-development-and-programming/">
+Web Development and Programming"</a>. Please utilize the Resources section for downloadable 
+slides, web links, and other 
+resources by module.</p>
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -782,4 +808,5 @@ Hello and welcome to Web Applications for Everybody. In this walkthrough, we're 
 <h3>Installing MAMP on Macintosh</h3>
 
 <h6>...the end</h6>
-<h6>Last Changed 4/19/24 Fri 3:07pm</h6>
+<h6>Prior Change 4/19/24 Fri 3:07pm</h6>
+<h6>Last Changed 6/06/24 Thu 5:04pm</h6>
