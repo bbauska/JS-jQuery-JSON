@@ -1,7 +1,8 @@
 ---
 title: "University of Michigan's JavaScript, jQuery & JSON"
 author: "bbauska"
-date last editted: "6/06/2024 Thu 4+pm"
+date first made: "6/06/2024 Thu 4+pm"
+date last editted: "9/13/2024 Fri 9+am"
 output: 
   markdown:
     with some style
@@ -62,8 +63,8 @@ Database Applications in PHP courses in this specialization.</p>
 <h4>Slides</h4>
 
 <ul>
-  <li>01-JavaScript PPT File</li>
-  <li>01-JavaScript.pdf PDF File</li>
+  <li>01-JavaScript.ppt (PPT File)</li>
+  <li>01-JavaScript.pdf (PDF File)</li>
 </ul>
 
 <h4>Links & Sample Code</h4>
@@ -81,18 +82,30 @@ Database Applications in PHP courses in this specialization.</p>
   <li>JS Foundation (was jquery.org in video link, JavaScript - Document Object Model)</li>
 </ul>
 
-<h1>Syllabus</h1>
+<h1 class="toc_syllabus">Syllabus</h1>
+
 
 <h2>Week 1 - Introduction to JavaScript</h2>
-
 <p>We take a quick look at the JavaScript language. We assume that you already know PHP - so 
 it is a pretty quick introduction focusing on what is different about JavaScript.</p>
+<h3>Learning Objectives</h3>
+<ul>
+  <li>Describe how and when JavaScript is executed in the browser.</li>
+  <li>Describe the three ways that JavaScript can be placed within a web page.</li>
+  <li>Build and debug simple JavaScript code snippets.</li>
+  <li>Demonstrate how to debug JavaScript errors using the browser developer console.</li>
+  <li>Give examples of JavaScript manipulating the HTML Document Object Model (DOM).</li>
+  <li>Describe the history of the JavaScript language, where and when it was developed, 
+    and its relationship to Java.</li>
+  <li>Explain the asynchronous nature of JavaScript in the browser.</li>
+  <li>Understand how and when the code in an "onlick" attribute is executed.</li>
+<ul>
 
-<h5>17 videos, 10 readings</h5>
+<h5>17 lessons, 6 readings</h5>
 
 <ul>
-  <li>Reading: Textbook & Course Resources</li>
-  <li>Reading: Syllabus</li>
+  <li>1.00 Textbook & Course Resources</li>
+  <li>1.00 Syllabus</li>
 </ul>
 
 1.	Welcome to the Course
@@ -107,10 +120,9 @@ it is a pretty quick introduction focusing on what is different about JavaScript
 10.	Code Walkthrough - Javascript/Profiles
 
 <ul>
-  <li>Reading: Assignment Specification: JavaScript/Profiles</li>
-  <li>App Item: Peer-Grader: JavaScript / Profiles</li>
-  <li>Reading: About This Section</li>
-  <li>Reading: Installation Handouts</li>
+  <li>1.10 Assignment Specification: JavaScript/Profiles</li>
+  <li>1.10 About This Section</li>
+  <li>1.10 Installation Handouts</li>
 </ul>
 
 11.	Installing MAMP on Macintosh
@@ -118,13 +130,13 @@ it is a pretty quick introduction focusing on what is different about JavaScript
 13.	Installing XAMPP on Windows10
 
 <ul>
-  <li>Reading: Installing LAMP On Linux</li>
+  <li>1.13 Installing LAMP On Linux</li>
 </ul>
 
 14.	Windows: Using NGrok with the Autograder
 15.	Macintosh: Using NGrok with the Autograder
-16.	Bonus: Brendan Eich - Inventing JavaScript
-17.	Bonus: Office Hours Seattle, Washington
+16.	Brendan Eich - Inventing JavaScript
+17.	Office Hours Seattle, Washington
 
 <h2>Week 2 - JavaScript Objects</h2>
 
@@ -132,12 +144,12 @@ it is a pretty quick introduction focusing on what is different about JavaScript
 This is the second time we look at the OO pattern so we focus on the unique aspect of 
 how JavaScript approaches OO.</p>
 
-<h5>4 videos</h5>
+<h5>4 lessons</h5>
 
 1.	JavaScript - Object Oriented Concepts
 2.	JavaScript - Building Objects
 3.	JavaScript - Object Life Cycle
-4.	Bonus: Office Hours Seoul, South Korea
+4.	Office Hours Seoul, South Korea
 
 <h2>Week 3 - Using JQuery</h2>
 
@@ -153,12 +165,11 @@ manipulation of the Document Object Model(DOM) and event handling.</p>
 5.	Code Walkthrough: Profiles, Positions and JQuery
 
 <ul>
-  <li>Reading: Assignment Specification: Profiles, Positions and JQuery</li>
-  <li>App Item: Peer-Grader: Profiles, Positions and jQuery</li>
+  <li>3.05 Assignment Specification: Profiles, Positions and JQuery</li>
 </ul>
 
-6.	Video: Bonus: John Resig - JQuery
-7.	Video: Bonus: Office Hours, Barcelona
+6.	John Resig - JQuery
+7.	Office Hours, Barcelona
 
 <h2>Week 4 - JSON - JavaScript Object Notation</h2>
 
@@ -166,7 +177,7 @@ manipulation of the Document Object Model(DOM) and event handling.</p>
 syntax to exchange data between code running on the server (i.e. in PHP) and code running 
 in the browser (JavaScript/JQuery).</p>
 
-<h5>9 videos, 3 readings</h5>
+<h5>9 lessons, 2 readings</h5>
 
 1.	JavaScript Object Notation (JSON)
 2.	JSON and jQuery
@@ -177,22 +188,23 @@ in the browser (JavaScript/JQuery).</p>
 7.	Code Walkthrough: Profile, Positions, Education, and JSON
 
 <ul>
-  <li>Reading: Assignment Specification: Profiles, Positions, and Education</li>
+  <li>4.07: Assignment Specification: Profiles, Positions, and Education</li>
 </ul>
 
-8.	Bonus Office Hours: Montreal, Quebec
-9.	Fun: Chuck Pretends he is a Travel Show (Paris)
+8.	Office Hours: Montreal, Quebec
+9.	Chuck Pretends he is a Travel Show (Paris)
 
 <ul>
-  <li>Reading: Keep Learning with Michigan Online</li>
+  <li>4.09: Keep Learning with Michigan Online</li>
 </ul>
+<h6>end of syllabus</h6>
 
-<h4>Textbook & Course Resources</h4>
+<h4>1.00 Textbook & Course Resources</h4>
 
 <p>This course uses an open and free textbook titled, "The Missing Link: An Introduction 
 to <a href="https://milneopentextbooks.org/the-missing-link-an-introduction-to-web-development-and-programming/">
-Web Development and Programming"</a>. Please utilize the Resources section for downloadable 
-slides, web links, and other 
+Web Development and Programming"</a>.</p>
+<p>Please utilize the Resources section for downloadable slides, web links, and other 
 resources by module.</p>
 
 <div align="right">
@@ -200,8 +212,11 @@ resources by module.</p>
 </div>
 
 <h1 id="ch1">Week 1: Introduction to JavaScript</h1>
+<p>We take a quick look at the JavaScript language. We assume that you already know PHP - so it 
+is a pretty quick introduction focusing on what is different about JavaScript.</p>
+<h3>Learning Objectives</h3>
 
-<h3>Welcome to the Course</h3>
+<h3>Welcome to JS, jQuery and JSON (3:12)</h3>
 
 <p>Welcome to JavaScript, jQuery and JSON. This is the fourth class that we're teaching. And at 
 the end of the previous class, you worked on a CRUD application which made it so that you 
@@ -245,8 +260,8 @@ made it through those first three classes, I'm proud of you, and I'm glad that y
 still interested, and we'll see at the end of this one, because at the end of this one, 
 you're going to know a whole lot of stuff.</p>
 
-<h3>JavaScript Overview</h3>
-
+<h3>JavaScript Overview (10:17)</h3>
+<!-- image -->
 <p>Now we're looking at the JavaScript programming language. There's a lot of people that 
 might say that the first programming language that you should learn, and maybe even the 
 only programming language you should learn, is JavaScript. And I totally disagree with that. 
@@ -263,13 +278,14 @@ learned PHP, which is the language of this server code that we happened to have 
 We've talked about the request response cycle, we've talked about HTML, and CSS. And how 
 we format things and make them look pretty in browsers. I kept saying the Document Object 
 Model (DOM), but now we're going to write code that runs in the browser. That's the distinct 
-difference. Now, if you're running something like Node.js, that means that you are actually 
+difference. 
+If you're running something like Node.js, that means that you are actually 
 running server based JavaScript, but for now we're going to talk about JavaScript as a 
-browser based tool. Now, JavaScript was invented for the browser. And for its first 15 
-years, it pretty much ran in the browser. It was never intended to be only in the browser. 
-But it really has been a browser only programming language for a long time. And its use in 
-servers is creeping up now. And so the concept of HTML and CSS and a Document Object Model 
-has been part and parcel of what JavaScript has been about from its inception.</p>
+browser based tool. JavaScript was invented for the browser. And for its first 15 years, it 
+ran in the browser. It was never intended only be in the browser. But it has been a browser 
+only programming language for a long time. And its use in servers is creeping up now. And 
+so the concept of HTML and CSS and a Document Object Model has been part and parcel of what 
+JavaScript has been about from its inception.</p>
 
 <p>From the first moment that we ever had JavaScript, it's been about the Document Object 
 Model and how to manipulate the Document Object Model. And add interactivity without request 
@@ -283,28 +299,28 @@ language. And then we're going to learn how to use it in the browser.</p>
 
 <p>JavaScript has a very different history than PHP or Python. And I like to share with 
 you the histories of all these programming languages to give you a sense of where they 
-came from. Because I think it really helps you understand what they're all about. So 
-JavaScript is about 20 years old now. It was introduced by Netscape in 1995, and Brendan 
-Eich is the developer of it. And if you watch my video about Brendan Eich, you will see 
-that it's very, very different than the video that I encourage you to watch with Rasmus 
+came from. Because I think it really helps you understand what they're all about. JavaScript 
+is about 20 years old now. It was introduced by Netscape in 1995, and Brendan Eich is the 
+developer of it. And if you read the lesson about Brendan Eich, you will see that it's very, 
+very different than the lesson that I encourage you to read with Rasmus 
 Lerdorf, the creator of PHP. PHP is designed to be a practical and continually evolving 
 toolkit. So PHP itself is supposed to be a toolkit. Rasmus didn't have any formal 
 education in how to build languages, but Brendan has got, I think, a PhD in physics. And 
 he's a math genius and he's a language genius and he has been a student of programming 
 languages. And so the idea of JavaScript was that it was supposed to be built as a toy 
-and that's why it's kind of named JavaScript. There's this other language called Java,
+and that's why it's named JavaScript. There's this other language called Java,
 which you may or may not know. It's a lot harder than JavaScript and JavaScript was 
-suppose to be the easy, baby version of it. But in many ways, Brendan was such a brilliant 
+suppose to be the easy, baby version of it. 
+But in many ways, Brendan was such a brilliant 
 computer scientist that he sneaked so many wonderful things. And when we talk about
-object-oriented JavaScript, you'll see that it's very different
-than all the other object-oriented things that we've talked about. Because it has a different sort of
-foundational notion inside of it, called first class functions. And so it's a very theoretically beautiful
-language compared to some of these other ones that were kind of compromises,
-and very practical, but compromises. And there's a standardization body called
-ECMA that standardizes JavaScript, and so you kind of see it named as ECMAScript. And if you see it named ECMAScript, don't
-feel bad about that, it's all the same. And so the idea is that JavaScript
-is a programming language that runs in the browser. And if you compare and contrast this
-with PHP, which we get done talking about. We'd say &lt;?php and
+object-oriented JavaScript, you'll see that it's very different than all the other 
+object-oriented things that we've talked about. Because it has a different foundational notion inside of it, called first class functions. And so it's a very 
+theoretically beautiful language compared to some of these other ones that were kind 
+of compromises, and very practical, but compromises. And there's a standardization body 
+called ECMA that standardizes JavaScript, and so you kind of see it named as ECMAScript. 
+And if you see it named ECMAScript, don't feel bad about that, it's all the same. And so 
+the idea is that JavaScript is a programming language that runs in the browser. And if 
+you compare and contrast this with PHP, which we get done talking about. We'd say &lt;?php and
 then all this code would run in the server and produce some output that
 would go to the browser, okay? But that's not what's going to happen in JavaScript. In 
 JavaScript you are having your HTML tags. The JavaScript is actual text that comes from the server and then as the DOM is being parsed it reads this and runs this code. In between the script and end script tag, we are running the language JavaScript. Now, it's not just about writing output,
