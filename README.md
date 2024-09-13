@@ -8,14 +8,15 @@ output:
     with some style
 ---
 
-<!-- <h2>UofM-JS-jQuery-JSON</h2> -->
-<!-- <h6>University of Michigan's JavaScript, jQuery and JSON</h6> -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of uofm-js-jquery-json ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 align="center">JavaScript, jQuery &amp; JSON</h2>
+<h6 align="center">by Charles Russell Severance, Clinical Professor University of Michigan (2017)</h6>
+<br/>
 
+<h3 align="center"> </h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of js-jquery-json.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h1 align="center">JavaScript, jQuery and JSON</h1>
-
-<h6 align="center">(by Charles Severance - University of Michigan)</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. json & jquery logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
@@ -25,9 +26,69 @@ output:
   style="border: 2px solid #000000;" 
   width="20%" />
 </p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. university of michigan logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center">
+<img src="./images/image002.jpg"
+  style="border: 2px solid #000000;"
+  width="50%"
+  title="University of Michigan logo"
+  alt="University of Michigan logo." />
+</p>
 
-<h2>JavaScript, jQuery and JSON</h2>
-<h6>By Charles Russell Severance, Clinical Professor University of Michigan</h6>
+<h2><a href="#table-of-contents">Table of Contents</a></h2>
+
+## [**Week 1: Learning about the Web**](#ch1)
+>### 1.01 [**Introduction to HTML5**](#ch1-01)
+>### 1.02 [**The Evolution of HTML**](#ch1-02)
+<ol type="1" start="1>
+  <li>1.1 Welcome to the Course</li>
+  <li>1.2 JavaScript Overview</li>
+  <li>1.3 Basic JavaScript</li>
+  <li>1.4 JavaScript - Core Language Features</li>
+  <li>1.5 JavaScript - Variables and Expressions</li>
+  <li>1.6 JavaScript - Arrays and Control Structures</li>
+  <li>1.7 Code Walkthrough: JavaScript</li>
+  <li>1.8 JavaScript - Document Object Model</li>
+  <li>1.9 Code Walkthrough: Document Object Model (DOM)</li>
+  <li>1.10 Code Walkthrough - Javascript/Profiles</li>
+</ol>
+
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+### [**About**](#cha)
+>		- #### [**a-01 About**](#cha-01)
+>		- #### [**a-02 JavaScript PowerPoint Slides (ppt file)**](#cha-02)
+>		- #### [**a-03 JavaScript Slides (pdf file)**](#cha-03)
+
+### [**Week 1: JavaScript**](#ch1)
+>#### 1.01 [**Welcome to the Course**](#ch1-01)
+>#### 1.02 [**JavaScript Overview**](#ch1-02)
+>#### 1.03 [**Basic JavaScript**](#ch1-03)
+>#### 1.04 [**JavaScript - Core Language Features**](#ch1-04)
+>#### 1.05 [**JavaScript - Variables and Expressions**](#ch1-05)
+>#### 1.06 [**JavaScript - Arrays and Control Structers**](#ch1-06)
+>#### 1.07 [**Code Walkthrough: JavaScript**](#ch1-07)
+>#### 1.08 [**JavaScript - Document Object Model**](#ch1-08)
+>#### 1.09 [**Code Walkthrough: Document Object Model (DOM)**](#ch1-09)
+>#### 1.10 [**Code Walkthrough - JavaScript/Profiles**](#ch1-10)
+>		- ####[**1.10 Assignment Specification: JavaScript/Profiles**](#ch1-10-assign)
+>		- ####[**1.10 About This Section**](#ch1-10-about)
+>		- ####[**1.10 Installation Handouts**](#ch1-10-hndouts)
+>#### 1.11 [**Installing MAMP on MacIntosh**](#ch1-11)
+>#### 1.12 [**Installing MAMP on Windows10**](#ch1-12)
+>#### 1.13 [**Installing XAMPP on Windows10**](#ch1-13)
+>		- ####[**1.13 Installing LAMP On Linux**](#ch1-13-linux)
+>#### 1.14 [**Windows: Using NGrok with the Autograder**](#ch1-14)
+>#### 1.15 [**MacIntosh: Using NGrok with the Autograder**](#ch1-15)
+>#### 1.16 [**Brendan Eich - Inventing JavaScript**](#ch1-16)
+>#### 1.17 [**Office Hours Seattle, Washington**](#ch1-17)
+
+### [**Week 2: JavaScript**](#ch2)
+
 
 <p>We take a quick look at the JavaScript language. We assume that you already know PHP - 
 so it is a pretty quick introduction focusing on what is different about JavaScript.</p>
@@ -107,19 +168,6 @@ it is a pretty quick introduction focusing on what is different about JavaScript
   <li>1.0 Textbook & Course Resources</li>
   <li>1.0 Syllabus</li>
 </ul>
-<ol type="1" start="1>
-  <li>1.1 Welcome to the Course</li>
-  <li>1.2 JavaScript Overview</li>
-  <li>1.3 Basic JavaScript</li>
-  <li>1.4 JavaScript - Core Language Features</li>
-  <li>1.5 JavaScript - Variables and Expressions</li>
-  <li>1.6 JavaScript - Arrays and Control Structures</li>
-  <li>1.7 Code Walkthrough: JavaScript</li>
-  <li>1.8 JavaScript - Document Object Model</li>
-  <li>1.9 Code Walkthrough: Document Object Model (DOM)</li>
-  <li>1.10 Code Walkthrough - Javascript/Profiles</li>
-</ol>
-
 <ul>
   <li>1.10 Assignment Specification: JavaScript/Profiles</li>
   <li>1.10 About This Section</li>
