@@ -99,44 +99,46 @@ it is a pretty quick introduction focusing on what is different about JavaScript
     and its relationship to Java.</li>
   <li>Explain the asynchronous nature of JavaScript in the browser.</li>
   <li>Understand how and when the code in an "onlick" attribute is executed.</li>
-<ul>
+</ul>
 
 <h5>17 lessons, 6 readings</h5>
 
 <ul>
-  <li>1.00 Textbook & Course Resources</li>
-  <li>1.00 Syllabus</li>
+  <li>1.0 Textbook & Course Resources</li>
+  <li>1.0 Syllabus</li>
 </ul>
-
-1.	Welcome to the Course
-2.	JavaScript Overview
-3.	Basic JavaScript
-4.	JavaScript - Core Language Features
-5.	JavaScript - Variables and Expressions
-6.	JavaScript - Arrays and Control Structures
-7.	Code Walkthrough: JavaScript
-8.	JavaScript - Document Object Model
-9.	Code Walkthrough: Document Object Model (DOM)
-10.	Code Walkthrough - Javascript/Profiles
+<ol type="1" start="1>
+  <li>1.1 Welcome to the Course</li>
+  <li>1.2 JavaScript Overview</li>
+  <li>1.3 Basic JavaScript</li>
+  <li>1.4 JavaScript - Core Language Features</li>
+  <li>1.5 JavaScript - Variables and Expressions</li>
+  <li>1.6 JavaScript - Arrays and Control Structures</li>
+  <li>1.7 Code Walkthrough: JavaScript</li>
+  <li>1.8 JavaScript - Document Object Model</li>
+  <li>1.9 Code Walkthrough: Document Object Model (DOM)</li>
+  <li>1.10 Code Walkthrough - Javascript/Profiles</li>
+</ol>
 
 <ul>
   <li>1.10 Assignment Specification: JavaScript/Profiles</li>
   <li>1.10 About This Section</li>
   <li>1.10 Installation Handouts</li>
 </ul>
-
-11.	Installing MAMP on Macintosh
-12.	Installing MAMP on Windows10
-13.	Installing XAMPP on Windows10
-
+<ol type="1" start="11">
+  <li>1.11 Installing MAMP on Macintosh</li>
+  <li>1.12 Installing MAMP on Windows10</li>
+  <li>1.13 Installing XAMPP on Windows10</li>
+</ol>
 <ul>
   <li>1.13 Installing LAMP On Linux</li>
 </ul>
-
-14.	Windows: Using NGrok with the Autograder
-15.	Macintosh: Using NGrok with the Autograder
-16.	Brendan Eich - Inventing JavaScript
-17.	Office Hours Seattle, Washington
+<ol type="1" start="14">
+  <li>1.14 Windows: Using NGrok with the Autograder</li>
+  <li>1.15 Macintosh: Using NGrok with the Autograder</li>
+  <li>1.16 Brendan Eich - Inventing JavaScript</li>
+  <li>1.17 Office Hours Seattle, Washington</li>
+</ol>
 
 <h2>Week 2 - JavaScript Objects</h2>
 
