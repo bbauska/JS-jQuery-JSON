@@ -31,7 +31,7 @@ output:
 <p align="center">
 <img src="./images/image005.png"
   style="border: 2px solid #000000;"
-  width="50%"
+  width="25%"
   title="University of Michigan logo"
   alt="University of Michigan logo." />
 </p>
