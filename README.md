@@ -52,11 +52,6 @@ output:
   <li>1.10 Code Walkthrough - Javascript/Profiles</li>
 </ol>
 
-
-<div align="right">
-  <b><a href="#table-of-contents">↥ Back To Top</a></b>
-</div>
-
 ### [**About**](#cha)
 >		- #### [**a-01 About**](#cha-01)
 >		- #### [**a-02 JavaScript PowerPoint Slides (ppt file)**](#cha-02)
@@ -86,7 +81,6 @@ output:
 >#### 1.17 [**Office Hours Seattle, Washington**](#ch1-17)
 
 ### [**Week 2: JavaScript**](#ch2)
-
 
 <p>We take a quick look at the JavaScript language. We assume that you already know PHP - 
 so it is a pretty quick introduction focusing on what is different about JavaScript.</p>
@@ -142,7 +136,6 @@ Database Applications in PHP courses in this specialization.</p>
 </ul>
 
 <h1 class="toc_syllabus">Syllabus</h1>
-
 
 <h2>Week 1 - Introduction to JavaScript</h2>
 <p>We take a quick look at the JavaScript language. We assume that you already know PHP - so 
@@ -302,6 +295,10 @@ slightly larger applications. But, this is where you move into a situation where
 going to be able to walk into someone doing web development, or an organization do web 
 development, you're going to know the stuff that's in this. You need to know the stuff 
 that's in this class to sort of consider yourself a modern web developer.</p>
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 <p>Invest a little more time, I think it's worth it and if you got this far and you've 
 made it through those first three classes, I'm proud of you, and I'm glad that you're 
