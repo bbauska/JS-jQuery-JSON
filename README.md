@@ -1,7 +1,7 @@
 ---
 title: "University of Michigan's JavaScript, jQuery & JSON"
 author: "bbauska"
-date first made: "6/06/2024 Thu 4+pm"
+date created: "6/06/2024 Thu 4+pm"
 date last editted: "9/13/2024 Fri 9+am"
 output: 
   markdown:
