@@ -53,9 +53,9 @@ output:
 </ol>
 
 ### [**About**](#cha)
->		- #### [**a-01 About**](#cha-01)
->		- #### [**a-02 JavaScript PowerPoint Slides (ppt file)**](#cha-02)
->		- #### [**a-03 JavaScript Slides (pdf file)**](#cha-03)
+>#### a.01 [**About**](#cha-01)
+>#### a.02 [**JavaScript PowerPoint Slides (ppt file)**](#cha-02)
+>#### a.03 [**JavaScript Slides (pdf file)**](#cha-03)
 
 ### [**Week 1: JavaScript**](#ch1)
 >#### 1.01 [**Welcome to the Course**](#ch1-01)
