@@ -36,8 +36,6 @@ output:
   alt="University of Michigan logo." />
 </p>
 
-<h2><a href="#table-of-contents">Table of Contents</a></h2>
-
 ## [**Week 1: Learning about the Web**](#ch1)
 >### 1.01 [**Introduction to HTML5**](#ch1-01)
 >### 1.02 [**The Evolution of HTML**](#ch1-02)
