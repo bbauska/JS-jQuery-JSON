@@ -173,11 +173,12 @@ This is the second time we look at the OO pattern so we focus on the unique aspe
 how JavaScript approaches OO.</p>
 
 <h5>4 lessons</h5>
-
-1.	JavaScript - Object Oriented Concepts
-2.	JavaScript - Building Objects
-3.	JavaScript - Object Life Cycle
-4.	Office Hours Seoul, South Korea
+<ol type="1" start="1">
+  <li>JavaScript - Object Oriented Concepts</li>
+  <li>JavaScript - Building Objects</li>
+  <li>JavaScript - Object Life Cycle</li>
+  <li>Office Hours Seoul, South Korea</li>
+</ol>
 
 <h2>Week 3 - Using JQuery</h2>
 
@@ -185,19 +186,21 @@ how JavaScript approaches OO.</p>
 manipulation of the Document Object Model(DOM) and event handling.</p>
 
 <h5>7 videos, 1 reading</h5>
-
-1.	jQuery Basics
-2.	Code Walkthrough: jQuery Basics
-3.	Forms and jQuery
-4.	Code Walkthrough: Forms and JQuery
-5.	Code Walkthrough: Profiles, Positions and JQuery
+<ol type="1" start="1">
+  <li>jQuery Basics</li>
+  <li>Code Walkthrough: jQuery Basics</li>
+  <li>Forms and jQuery</li>
+  <li>Code Walkthrough: Forms and JQuery</li>
+  <li>Code Walkthrough: Profiles, Positions and JQuery</li>
+</ol>
 
 <ul>
   <li>3.05 Assignment Specification: Profiles, Positions and JQuery</li>
 </ul>
-
-6.	John Resig - JQuery
-7.	Office Hours, Barcelona
+<ol type="1" start="6">
+  <li>John Resig - JQuery</li>
+  <li>Office Hours, Barcelona</li>
+</ol>
 
 <h2>Week 4 - JSON - JavaScript Object Notation</h2>
 
