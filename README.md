@@ -109,7 +109,7 @@ Database Applications in PHP courses in this specialization.</p>
 
 <h4>Links & Sample Code</h4>
 
-<h3>Introduction to JavaScript</h3>
+<h4>Introduction to JavaScript</h4>
 
 <ul>
   <li><a href="https://www.wa4e.com/code/javascript.zip">WA4E JavaScript zip (download)</a></li>
@@ -121,7 +121,7 @@ Database Applications in PHP courses in this specialization.</p>
     Walk through JavaScript)</li>
   <li>JS Foundation (was jquery.org in video link, JavaScript - Document Object Model)</li>
 </ul>
-
+<!- we begin -->
 <h1 class="toc_syllabus">Syllabus</h1>
 
 <h2>Week 1 - Introduction to JavaScript</h2>
@@ -174,10 +174,10 @@ how JavaScript approaches OO.</p>
 
 <h5>4 lessons</h5>
 <ol type="1" start="1">
-  <li>JavaScript - Object Oriented Concepts</li>
-  <li>JavaScript - Building Objects</li>
-  <li>JavaScript - Object Life Cycle</li>
-  <li>Office Hours Seoul, South Korea</li>
+  <li>2.01 JavaScript - Object Oriented Concepts</li>
+  <li>2.02 JavaScript - Building Objects</li>
+  <li>2.03 JavaScript - Object Life Cycle</li>
+  <li>2.04 Office Hours Seoul, South Korea</li>
 </ol>
 
 <h2>Week 3 - Using JQuery</h2>
@@ -187,19 +187,19 @@ manipulation of the Document Object Model(DOM) and event handling.</p>
 
 <h5>7 videos, 1 reading</h5>
 <ol type="1" start="1">
-  <li>jQuery Basics</li>
-  <li>Code Walkthrough: jQuery Basics</li>
-  <li>Forms and jQuery</li>
-  <li>Code Walkthrough: Forms and JQuery</li>
-  <li>Code Walkthrough: Profiles, Positions and JQuery</li>
+  <li>3.01 jQuery Basics</li>
+  <li>3.02 Code Walkthrough: jQuery Basics</li>
+  <li>3.03 Forms and jQuery</li>
+  <li>3.04 Code Walkthrough: Forms and JQuery</li>
+  <li>3.05 Code Walkthrough: Profiles, Positions and JQuery</li>
 </ol>
 
 <ul>
   <li>3.05 Assignment Specification: Profiles, Positions and JQuery</li>
 </ul>
 <ol type="1" start="6">
-  <li>John Resig - JQuery</li>
-  <li>Office Hours, Barcelona</li>
+  <li>3.06 John Resig - JQuery</li>
+  <li>3.07 Office Hours, Barcelona</li>
 </ol>
 
 <h2>Week 4 - JSON - JavaScript Object Notation</h2>
@@ -209,22 +209,22 @@ syntax to exchange data between code running on the server (i.e. in PHP) and cod
 in the browser (JavaScript/JQuery).</p>
 
 <h5>9 lessons, 2 readings</h5>
-
-1.	JavaScript Object Notation (JSON)
-2.	JSON and jQuery
-3.	Code Walkthrough: JavaScript Object Notation
-4.	JSON Chat
-5.	Code Walkthrough: JSON Chat
-6.	Code WalkThrough - JSON CRUD
-7.	Code Walkthrough: Profile, Positions, Education, and JSON
-
+<ol type="1" start="1">
+  <li>4.01 JavaScript Object Notation (JSON)</li>
+  <li>4.02 JSON and jQuery</li>
+  <li>4.03 Code Walkthrough: JavaScript Object Notation</li>
+  <li>4.04 JSON Chat</li>
+  <li>4.05 Code Walkthrough: JSON Chat</li>
+  <li>4.06 Code WalkThrough - JSON CRUD</li>
+  <li>4.07 Code Walkthrough: Profile, Positions, Education, and JSON</li>
+</ol>
 <ul>
   <li>4.07: Assignment Specification: Profiles, Positions, and Education</li>
 </ul>
-
-8.	Office Hours: Montreal, Quebec
-9.	Chuck Pretends he is a Travel Show (Paris)
-
+<ol type="1" start="8">
+  <li>4.08 Office Hours: Montreal, Quebec</li>
+  <li>4.09 Chuck Pretends he is a Travel Show (Paris)</li>
+</ol>
 <ul>
   <li>4.09: Keep Learning with Michigan Online</li>
 </ul>
@@ -254,34 +254,40 @@ the end of the previous class, you worked on a CRUD application which made it so
 connected PHP to the database in a user interface. And we introduced the concept of the 
 model-view-controller, where the model is the database, the view is what the user sees, and  
 the controllers, sort of the magic that shuffles things back and forth, and redirects the 
-user and all that stuff. In this class, what we're doing is what the industry and web 
+user and all that stuff.</p>
+
+<p>And so, in this class, what we're doing is what the industry and web 
 applications is doing, and that's playing with how we partition the model-view-controller 
 across the browser, the server, and the database. Everything you've done so far is rendered 
 HTML in PHP. That's the simple thing. And what we're going to explore in this class, is 
-moving some of the rendering of the HTML from the PHP into the browser. So we're going to 
-learn JavaScript.</p>
+moving some of the rendering of the HTML from the PHP into the browser.</p>
+  
+<p>We're going to learn JavaScript. And so, building that HTML mark up and sending to the 
+browser's old school and it's something you should know how to do. But, to be cool and to 
+be interactive and dynamic, to build little chats, the little red things that pop up without 
+having to do full page refreshes, that takes interactivity, and that takes JavaScript, and 
+that takes jQuery.</p>
 
-<p>And so, building that HTML mark up and sending to the browser's old school and it's 
-something you should know how to do. But, to be cool and to be interactive and dynamic, 
-to build little chats, the little red things that pop up without having to do full page 
-refreshes, that takes interactivity, and that takes JavaScript, and that takes jQuery. 
-And so, if you will build a chat application and you'll realize that, chat window can 
-go off in the background, get a new chat, and it shows up in the window. So, all this 
-stuff where you don't have to do full request-response cycles and we can repaint parts 
-of web pages that repaint the whole web pages, that's the kind of thing we're going to 
-learn. And that's the fun aspect of modern web applications. We need to learn JavaScript, 
-jQuery, which is a JavaScript library that helps talking to the document object model and 
-sending that back and forth, and JSON, which is a format that we can cause JavaScript to 
-read data from the database and then format it inside the browser. We're going to do all 
-kinds of cool things. And that's how we're going to accomplish all these more interactive 
-user interactions.</p>
+<p>If you were to build a chat application, you'll realize that chat window can go off in the 
+background, get a new chat, and it shows up in the window. All this stuff where you don't have 
+to do full request-response cycles and we can repaint parts of web pages that repaint the whole 
+web pages, that's the kind of thing we're going to learn. And that's the fun aspect of modern 
+web applications.</p>
+  
+<p>We need to learn JavaScript, jQuery, which is a JavaScript library that helps talking to the 
+document object model and sending that back and forth, and JSON, which is a format that we 
+can cause JavaScript to read data from the database and then format it inside the browser. 
+We're going to do all kinds of cool things. And that's how we're going to accomplish all 
+these more interactive user interactions.</p>
   
 <p>This course is probably a little more challenging than the other courses that we've 
 done so far. Just because you better know what you're doing, and it's like, here's some 
 JavaScript and boy, we're going to do this stuff, and now you got to change the DOM, and 
 we move pretty quickly through each of the assignments and the assignments are a little 
-longer. So, be ready to spend a little bit more time working on this course, be building 
-slightly larger applications. But, this is where you move into a situation where you're 
+longer.</p>
+
+<p>Be ready to spend a little more time working on this course, bY building slightly larger 
+applications. But, this is where you move into a situation where you're 
 going to be able to walk into someone doing web development, or an organization do web 
 development, you're going to know the stuff that's in this. You need to know the stuff 
 that's in this class to sort of consider yourself a modern web developer.</p>
@@ -295,26 +301,24 @@ made it through those first three classes, I'm proud of you, and I'm glad that y
 still interested, and we'll see at the end of this one, because at the end of this one, 
 you're going to know a whole lot of stuff.</p>
 
-<h3>JavaScript Overview (10:17)</h3>
+<h3 id="ch1-02">1.02 JavaScript Overview (10:17)</h3>
 <!-- image -->
 <p>Now we're looking at the JavaScript programming language. There's a lot of people that 
 might say that the first programming language that you should learn, and maybe even the 
 only programming language you should learn, is JavaScript. And I totally disagree with that. 
 JavaScript is a wonderful language. And it runs in the browser. And with things like Node.js 
 it's increasingly running in the server. And it's a great language. But it's a powerful 
-language. It's not a easy to learn language. I mean, you really need to understand what's 
-going on. And I'll try to show you some of the awesome things that are true about JavaScript 
-that I think you can only appreciate after you learn a couple other languages like C++, Pascal, 
-Python and PHP, SQL. Hopefully this is your fourth or fifth programming language that 
-you've learned. The other thing that we're doing now is we're moving in a whole new world. 
-
-We've been programming, we learned SQL, which is the language talking to databases. We 
+language. It's not an easy language. It is a beautifully built language. The other thing that 
+we're doing now is we're moving in a whole new world.</p>
+<!-- IMAGE -->
+<p>We've been programming, we learned SQL, which is the language talking to databases. We 
 learned PHP, which is the language of this server code that we happened to have chosen. 
 We've talked about the request response cycle, we've talked about HTML, and CSS. And how 
 we format things and make them look pretty in browsers. I kept saying the Document Object 
 Model (DOM), but now we're going to write code that runs in the browser. That's the distinct 
-difference. 
-If you're running something like Node.js, that means that you are actually 
+difference.</p>
+
+<p>If you're running something like Node.js, that means that you are actually 
 running server based JavaScript, but for now we're going to talk about JavaScript as a 
 browser based tool. JavaScript was invented for the browser. And for its first 15 years, it 
 ran in the browser. It was never intended only be in the browser. But it has been a browser 
@@ -327,120 +331,154 @@ Model and how to manipulate the Document Object Model. And add interactivity wit
 response cycles. And so up till now, all the interactivity we've been adding has been by 
 displaying a whole new page of HTML. And sometimes we make it look like the page hasn't 
 changed, because everything lines up and some little thing changes, but really it's a full 
-request response cycle. Now in JavaScript, we're going to learn to play with this Document 
+request response cycle.</p>
+
+<p>Now in JavaScript, we're going to learn to play with this Document 
 Object Model and change what we see in the browser quite dynamically, okay? So the first 
 thing we're going to learn is we're going to learn about JavaScript as a programming 
 language. And then we're going to learn how to use it in the browser.</p>
 
 <p>JavaScript has a very different history than PHP or Python. And I like to share with 
 you the histories of all these programming languages to give you a sense of where they 
-came from. Because I think it really helps you understand what they're all about. JavaScript 
-is about 20 years old now. It was introduced by Netscape in 1995, and Brendan Eich is the 
+came from. Because I think it really helps you understand what they're all about.</p>
+<!-- image -->  
+<p>JavaScript is about 20 years old now. It was introduced by Netscape in 1995, and Brendan Eich is the 
 developer of it. And if you read the lesson about Brendan Eich, you will see that it's very, 
 very different than the lesson that I encourage you to read with Rasmus 
-Lerdorf, the creator of PHP. PHP is designed to be a practical and continually evolving 
-toolkit. So PHP itself is supposed to be a toolkit. Rasmus didn't have any formal 
-education in how to build languages, but Brendan has got, I think, a PhD in physics. And 
-he's a math genius and he's a language genius and he has been a student of programming 
-languages. And so the idea of JavaScript was that it was supposed to be built as a toy 
-and that's why it's named JavaScript. There's this other language called Java,
-which you may or may not know. It's a lot harder than JavaScript and JavaScript was 
-suppose to be the easy, baby version of it. 
-But in many ways, Brendan was such a brilliant 
-computer scientist that he sneaked so many wonderful things. And when we talk about
-object-oriented JavaScript, you'll see that it's very different than all the other 
-object-oriented things that we've talked about. Because it has a different foundational notion inside of it, called first class functions. And so it's a very 
-theoretically beautiful language compared to some of these other ones that were kind 
-of compromises, and very practical, but compromises. And there's a standardization body 
+Lerdorf, the creator of PHP.</p>
+
+<p>PHP is designed to be a practical and continually evolving toolkit. So PHP itself is supposed 
+to be a toolkit. Rasmus didn't have any formal education in how to build languages, but Brendan 
+has got, I think, a PhD in physics. And he's a math genius and he's a language genius and he has 
+been a student of programming languages. And so the idea of JavaScript was that it was supposed 
+to be built as a toy and that's why it's named JavaScript.</p>
+
+<p>There's this other language called Java, which you may or may not know. It's a lot harder than 
+JavaScript and JavaScript was suppose to be the easy, baby version of it. But in many ways, Brendan 
+was such a brilliant computer scientist that he sneaked so many wonderful things. And when we talk 
+about object-oriented JavaScript, you'll see that it's very different than all the other object-oriented 
+things that we've talked about. Because it has a different foundational notion inside of it, called 
+first class functions.</p>
+<p>And so it's a very theoretically beautiful language compared to some of these other ones that were 
+kind of compromises, and very practical, but compromises. And there's a standardization body 
 called ECMA that standardizes JavaScript, and so you kind of see it named as ECMAScript. 
-And if you see it named ECMAScript, don't feel bad about that, it's all the same. And so 
-the idea is that JavaScript is a programming language that runs in the browser. And if 
+And if you see it named ECMAScript, don't feel bad about that, it's all the same.</p>
+<!-- image -->
+<p>And so the idea is that JavaScript is a programming language that runs in the browser. And if 
 you compare and contrast this with PHP, which we get done talking about. We'd say &lt;?php and
-then all this code would run in the server and produce some output that
-would go to the browser, okay? But that's not what's going to happen in JavaScript. In 
-JavaScript you are having your HTML tags. The JavaScript is actual text that comes from the server and then as the DOM is being parsed it reads this and runs this code. In between the script and end script tag, we are running the language JavaScript. Now, it's not just about writing output,
-this happens to be writing output. There is this thing called document, this is a variable that's pre-set for us in JavaScript in the browser. And it is an object that allows us to touch the Document Object Model. I keep saying DOM, well DOM and document are the same thing. So what this is is saying, write to the DOM, a paragraph. And so that takes this text and
-it puts it here. So 'One Paragraph' came from HTML. 'Hello World' came from JavaScript. And then 'Second Paragraph'
-came from back from HTML. And so it's not like the output of this,
-it's not like PHP, where the output is automatically
-put in the document. You have to explicitly say,
-that's what I want to do. Because it turns out we do little
-things like manipulate existing things more commonly in JavaScript. We don't tend to write the entire
-Document Object Model in JavaScript. But we do sometimes, and when we get
-to doing rendering in the browser, we'll start seeing massive changes in the
-Document Object Model coming from that. There's a noscript tag. You might have an application
-that would say, you know what, I'm going to function
-differently if I don't have JavaScript. These days we don't worry
-to much about that. You might just say noscript,
-none of my application is going to work, because everything is so heavily
-dependent on JavaScript these days. So in any programming language, the first thing that you gotta do is
-figure out how to print hello world. And we do this so that we can sort of
-monitor our code, see what's going on. There is a function in JavaScript called
-alert(), which whatever you pass it a string as parameter and
-it pauses execution until you press OK. So in this little piece of code,
-and it depends. Different browsers will
-render this differently, but in this code this browser is actually
-parsing the Document Object Model. And sometimes you might see this 'One Paragraph' show up. And then it runs this code and it stops. And the thing is, when this stops, it actually has not done this next line. And so that next line is not in here. So it has to pause that JavaScript until you press OK. And you'll notice that your browser will keep spinning and spinning and spinning and spinning. And you, sometimes in some browsers you
-can't even switch tabs or anything else. Because this alert has kind of not just stopped JavaScript, but it's stopped the entire browser from making any progress on anything. So as a debugging mechanism,
-it's really a powerful thing. And if you ever, like watch me coding,
-when I'm totally lost and totally confused, I'm like,
-is my code even working? I'll put alert statements in, because
-they are like, stop everything. And you can sort of look around and
-figure what's going on. They get annoying when
-you get like ten of them. 
+then all this code would run in the server and produce some output that would go to the browser, 
+okay? But that's not what's going to happen in JavaScript.</p>
 
-And that's what we'll talk about, console.log, in a second. But alert is a great way to do basic debugging. There are three basic ways that
-you can include JavaScript. One is inline in the document, just like I just showed you. You can have it as part of an HTML tag, an event like onclick or onchange, onclick equals, and then in between
-here that's actually JavaScript code. Or you can put mostly libraries come in from a large file of JavaScript. And as our applications become more and more interactive on the clients sides, the amount of JavaScript that each page
-is including is going up and up and up. So this is an example of an onclick. We've done this with the location href, and I've used used this to like put a button and then change the browser to move to another thing. But basically, this is an anchor tag Click Me, right? And it says whenever this anchor tag is clicked, which means if you click there, then run this JavaScript code. And this is JavaScript code,
-it's an alert Hi, and return false. Now see, it just runs it, two line of JavaScript. JavaScript doesn't care about line ends or anything like that, or spacing. And so you just indicate it together with semicolons to indicate the end of each statement. And so the return false, this is like a function call, basically. And if you return false, what that does is suppresses the default behavior. And the default behavior would be that you would click here and it would follow this anchor tag. But if this onclick runs it takes priority, it does the alert and then it says, don't actually follow that link, okay? And so you could return true, and it would follow the link. You could run some JavaScript and then after your JavaScript ran it would follow the link if that were true. But when you click on this, it doesn't actually follow the link. And it depends on this return value being false or true. And so there's onchange and onclick, these are eventing. And this is like in the earliest versions of JavaScript, there was an eventing model that was put into various tags where you could run JavaScript. because it's very much tied to the Document Object Model. Including from a file, it's just like where you put the JavaScript in the middle, except you just have a script and an end script. And then you say source equals and then there is some code in that. This code is not HTML, this code in this file is known to be JavaScript. There's no &lt;?php that has to happen at the beginning of it, it just is JavaScript. So up next we'll talk a little bit about how you detect errors when you're writing JavaScript code.
+<p>In JavaScript you are having your HTML tags. The JavaScript is actual text that comes from the 
+server and then as the DOM is being parsed it reads this and runs this code. In between the script 
+and end script tag, we are running the language JavaScript. Now, it's not just about writing output,
+this happens to be writing output. There is this thing called document, this is a variable that's 
+pre-set for us in JavaScript in the browser. And it is an object that allows us to touch the 
+Document Object Model. I keep saying DOM, well DOM and document are the same thing.</p>
 
-<h3 id="ch1-01">Basic JavaScript</h3>
+<p>What this is is saying, write to the DOM, a paragraph. And so that takes this text and it puts 
+it here. So 'One Paragraph' came from HTML. 'Hello World' came from JavaScript. And then 'Second Paragraph'
+came from back from HTML. And so it's not like the output of this, it's not like PHP, where the output is 
+automatically put in the document. You have to explicitly say, that's what I want to do. Because it turns 
+out we do little things like manipulate existing things more commonly in JavaScript. We don't tend to write 
+the entire Document Object Model in JavaScript. But we do sometimes, and when we get to doing rendering in 
+the browser, we'll start seeing massive changes in the Document Object Model coming from that.</p>
+  
+<p>There's a noscript tag. You might have an application that would say, you know what, I'm going to function
+differently if I don't have JavaScript. These days we don't worry to much about that. You might just say 
+noscript, none of my application is going to work, because everything is so heavily dependent on JavaScript 
+these days. So in any programming language, the first thing that you gotta do is figure out how to print 
+hello world. And we do this so that we can sort of monitor our code, see what's going on.</p>
+<!-- image -->
+<p>There is a function in JavaScript called alert(), which whatever you pass it a string as parameter and
+it pauses execution until you press OK.</p>
+<!-- image -->
+<p>In this little piece of code, and it depends. Different browsers will render this differently, but 
+in this code this browser is actually parsing the Document Object Model. And sometimes you might see this 
+'One Paragraph' show up. And then it runs this code and it stops. And the thing is, when this stops, it 
+actually has not done this next line. And so that next line is not in here. So it has to pause that 
+JavaScript until you press OK. And you'll notice that your browser will keep spinning and spinning 
+and spinning and spinning. And you, sometimes in some browsers you can't even switch tabs or anything 
+else. Because this alert has kind of not just stopped JavaScript, but it's stopped the entire browser 
+from making any progress on anything. So as a debugging mechanism, it's really a powerful thing. I'll put
+alert() statements in, because they stop everything. But alert is a great way to do basic debugging.</p>
+<!-- image -->
+<p>There are three basic ways that you can include JavaScript. One is inline in the document, just like I 
+just showed you. You can have it as part of an HTML tag, an event like onclick or onchange, onclick equals, 
+and then in between here that's actually JavaScript code. Or you can put mostly libraries come in from a 
+large file of JavaScript. And as our applications become more and more interactive on the clients sides, 
+the amount of JavaScript that each page is including is going up and up and up.</p>
+<!-- image -->
+<p>This is an example of an onclick. We've done this with the location href, and I've used used this to like 
+put a button and then change the browser to move to another thing. But basically, this is an anchor tag 
+Click Me, right? And it says whenever this anchor tag is clicked, which means if you click there, then 
+run this JavaScript code. And this is JavaScript code, it's an alert Hi, and return false. Now see, it 
+just runs it, two line of JavaScript. JavaScript doesn't care about line ends or anything like that, or 
+spacing. And so you just indicate it together with semicolons to indicate the end of each statement. And 
+so the return false, this is like a function call, basically. And if you return false, what that does is 
+suppresses the default behavior. And the default behavior would be that you would click here and it would 
+follow this anchor tag.</p>
+<p>But if this onclick runs it takes priority, it does the alert and then it says, 
+don't actually follow that link, okay? And so you could return true, and it would follow the link. You 
+could run some JavaScript and then after your JavaScript ran it would follow the link if that were true. 
+But when you click on this, it doesn't actually follow the link. And it depends on this return value being 
+false or true. And so there's onchange and onclick, these are eventing. And this is like in the earliest 
+versions of JavaScript, there was an eventing model that was put into various tags where you could run 
+JavaScript. because it's very much tied to the Document Object Model.</p>
+<!-- image -->
+<p>Including from a file, it's just like where you put the JavaScript in the middle, except you just have 
+a script and an end script. And then you say source equals and then there is some code in that. This code 
+is not HTML, this code in this file is known to be JavaScript. There's no &lt;?php that has to happen at the 
+beginning of it, it just is JavaScript. So up next we'll talk a little bit about how you detect errors when 
+you're writing JavaScript code.</p>
 
-<p>So like in any programming language, we can make syntax errors. And it's a little 
+<h3 id="ch1-03">1.03 Basic JavaScript</h3>
+<!-- image -->
+<p>Like in any programming language, we can make syntax errors. And it's a little 
 different, and so you'll notice that one of the things I have had to bug you about in
 every programming language. Like in PHP you had to set the error display message in the 
 php.ini file, you had to set the error mode on your PDO so that you would see the errors. 
-The problem with having errors, is you've gotta see them as a developer. And so JavaScript 
-is kind of weird, in that it runs in the browser as a sort of a side effect of loading a 
+The problem with having errors, is you've gotta see them as a developer.</p>
+
+<p>And so JavaScript is weird, in that it runs in the browser as a sort of a side effect of loading a 
 web page. And the person looking at the browser is usually not the developer. And so the 
 default is that the browsers just hide all of the errors. Sometimes they'll put a little 
 red mark in the lower right hand corner or something, or a question mark or something, but 
 you don't see it. And the reason is, is the person who is standing looking at the browser 
 is not likely the person who wrote the code in the first place. And they're probably not 
-a programmer, they're the end user of your application. And so what happens is, it detects an
+a programmer, they're the end user of your application.</p>
+<!-- image -->
+<p>And so what happens is, it detects an
 error and it stops the script execution, but it doesn't notify you. There's no error log 
-like we have in PHP, etc, etc. So it's important to know how, when you're writing software 
-and doing development, how you can catch and notice errors. because you're going to make 
-mistakes as you're developing JavaScript. So this is an example of some broken JavaScript 
-code. So we have two script tags, two script tags. And this script tag has a mistake, it 
-has a single quote ending a double quote. Single quotes and double quotes are equivalent 
-in JavaScript, which is actually quite nice, and so that's a broken tag. And so what 
-happens is, is that it comes
-in here, and it starts this script. And it's running it, but this is a syntax
-error so it doesn't run. And what it does, is it doesn't run any of the remaining script codes. 
-So it never says, I am good. It basically gets out of that script block, so that's what happens. 
-And there's tries, and excepts, and things like that in JavaScript, and we can talk about that. 
-But in this case, we don't have a try or an except, and so it just stops that block. This is one block of JavaScript,
-this is another JavaScript. What it doesn't do, is it doesn't
-stop all JavaScript processing, it just sort of blows up this block, okay? And so even though it comes down here and
-gets to paragraph two, then this runs. And this is good JavaScript, and it runs. And so that's why we see this alert, Second time, is that hope
-springs eternal in JavaScript. And when it sees a new script tag,
-it's like, well, I'll run this. But it doesn't bother, as soon as it sees a single error,
-it doesn't go any further. And sometimes this is library code,
-and it's defining functions and stuff. And you make a syntax error, and then all the rest of the functions
-in the file don't exist. So you have to realize that
-a single error in a JavaScript, either a JavaScript file, or
-between a script and end script tag, one error sort of throws
-everything after that error away. You gotta get used to that,
-it doesn't run any more after that. But we have to see the error,
-and like I said, the end user is the one
-looking at the browser. And so we need to be able to say hey,
-where's this error at? And so we need to make it so
-that programmers can see errors, but users are not sort of, they're
-not thrown in the user's face. Now the user notices that your
-application stops working, but maybe it's not critical,
-or something like that. And so we, as developers though,
+like we have in PHP, etc. It's important to know how, when you're writing software 
+and doing development, how you can catch and notice errors, because you're going to make 
+mistakes as you're developing JavaScript.</p>
+<!-- image -->
+<p>This is an example of some broken JavaScript code. We have two script tags. And this script 
+tag has a mistake, it has a single quote ending a double quote. Single quotes and double quotes 
+are equivalent in JavaScript, which is actually quite nice, and so that's a broken tag.</p>
+<!-- IMAGE -->
+<p>And so what happens is, is that it comes in here, and it starts this script. And it's running 
+it, but this is a syntax error so it doesn't run. And what it does, is it doesn't run any of the 
+remaining script codes. So it never says, I am good. It basically gets out of that script block, 
+so that's what happens. And there's tries, and excepts, and things like that in JavaScript, and 
+we can talk about that. But in this case, we don't have a try or an except, and so it just stops 
+that block.</p>
+
+<p>This is one block of JavaScript, this is another JavaScript. What it doesn't do, is it doesn't
+stop all JavaScript processing, it just sort of blows up this block, okay? And so even though it 
+comes down here and gets to paragraph two, then this runs. And this is good JavaScript, and it 
+runs. And so that's why we see this alert, Second time, is that hope springs eternal in JavaScript. 
+And when it sees a new script tag, it's like, well, I'll run this. But it doesn't bother, as soon 
+as it sees a single error, it doesn't go any further. And sometimes this is library code, and it's 
+defining functions and stuff. And you make a syntax error, and then all the rest of the functions
+in the file don't exist. So you have to realize that a single error in a JavaScript, either a 
+JavaScript file, or between a script and end script tag, one error sort of throws everything after 
+that error away. You gotta get used to that, it doesn't run any more after that. But we have to see 
+the error, and like I said, the end user is the one looking at the browser. And so we need to be 
+able to say hey, where's this error at? And so we need to make it so that programmers can see errors, 
+but users are not sort of, they're not thrown in the user's face. Now the user notices that your
+application stops working, but maybe it's not critical, or something like that. And so we, as developers though,
 we want to see it, so we always have to turn something on. What's super convenient these days,
 thankfully, is that the browsers have a debugger mode in it, a developer
 mode in it, that shows you this stuff. And so you can see the errors by
