@@ -58,12 +58,9 @@
         mybutton.style.display = "none";
       }
     }
-
-    <!-- when the user clicks on the button, scroll to the top of the document. 0,0 or to top of -->
-    <!-- menu button (2120 on other example) -->
+    // when the user clicks on the button, scroll to the table of contents near top of document.
     function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
+      document.getElementById('table-of-contents').scrollIntoView();
     }
   </script>
   <header id="title-block-header">
@@ -96,6 +93,10 @@ Object Notation (JSON), which is commonly used as a syntax to exchange data betw
 on the server (i.e. in PHP) and code running in the browser (JavaScript/jQuery). It is assumed 
 that learners have already taken the Building Web Applications and Building Database Applications 
 in PHP courses in this specialization.</p>
+
+<h2 id="table-of-contents"><a href="#table-of-contents">Table of Contents</a></h2>
+
+<h2><strong>Course Information</strong></h2>
 
 <h2 id="#1-00">Week 1</h2>
 <h2>Week One: Introduction to JavaScript</h2>
