@@ -475,8 +475,9 @@ defining functions and stuff. And you make a syntax error, and then all the rest
 in the file don't exist. So you have to realize that a single error in a JavaScript, either a 
 JavaScript file, or between a script and end script tag, one error sort of throws everything after 
 that error away. You gotta get used to that, it doesn't run any more after that. But we have to see 
-the error, and like I said, the end user is the one looking at the browser. And so we need to be 
-able to say hey, where's this error at? And so we need to make it so that programmers can see errors, 
+the error, and like I said, the end user is the one looking at the browser. 
+
+And so we need to be able to say hey, where's this error at? And so we need to make it so that programmers can see errors, 
 but users are not sort of, they're not thrown in the user's face. Now the user notices that your
 application stops working, but maybe it's not critical, or something like that. And so we, as developers though,
 we want to see it, so we always have to turn something on. What's super convenient these days,
@@ -491,7 +492,9 @@ you basically get a split screen, and you can actually pull this out and
 make it on two screens, or whatever. And there's a lot of ways
 that you can show this, I think this little thing moves it out. But under Console,
 you can see all the error messages, and you see the fact that
-there is an error message. So some developers will actually
+there is an error message. 
+
+So some developers will actually
 make this the bottom part, so you have a screen and the bottom part,
 they just leave the Console all the time. And sometimes I'm running other people's
 code, and I just watch the Console for a little kind of Easter eggs. One time I saw a Console where a company
@@ -500,7 +503,9 @@ and you happen to be watching the Console, it would go like, hey, apply for a jo
 send log messages, which we'll soon see, out to this Console. Now it's usually pretty effective, and
 sometimes you have to refresh the page. But if it sort of knows that you're in
 developer mode and it finds something, you can click on this actual link, and
-it takes you right in the source code. So you do not have to go View Source,
+it takes you right in the source code. 
+
+So you do not have to go View Source,
 fool around. It knows all the source code,
 it knows what line you're in. Now some of these things look really ugly. There's this little thing that if you
 end up with this, what's called minified JavaScript, it's all one big
@@ -520,6 +525,8 @@ not, I love Python as the first
 programming language. And then PHP, and then SQL,
 and now JavaScript, because JavaScript is an awesome language. I talked about the alert message, but the alert message is really not very
 practical because it stops everything. I use alert when nothing make sense, and
+
+
 I'm like, I'm sticking an alert in here. I've just got to stop right now, because
 sometimes I don't know what order things are happening in, and so
 an alert would be stop. And it's not like it goes flying
@@ -537,7 +544,9 @@ console and look in the log, and I'm like why is that? What's that red error mes
 running applications sometimes. Nothing that's revealing
 secure information. Of course, nothing that
 JavaScript does is really secure, because like cookies it's in the browser,
-so the user can look at it. And a smart user can watch the JavaScript
+so the user can look at it. 
+
+And a smart user can watch the JavaScript
 running, can look at the JavaScript, can change the JavaScript. So you can't trust the JavaScript,
 even if you wrote it. The thing that's running in the browser
 may or may not be your code. Okay, so in older browsers, sometimes the console was only
@@ -546,7 +555,9 @@ of browsers did it. But if I'm leaving stuff in production,
 I will tend to say this. So window.console will retrieve true or
 false without blowing up, and then && console.log. And so if this is false, then this doesn't
 run, and if this is true, this does run. And it's a way to avoid getting a syntax
-error inside of the debugging statement. Another way to do this, and
+error inside of the debugging statement. 
+
+Another way to do this, and
 you can sort of ask in Stack Overflow, what about console? Is console always there? And there's a whole bunch of other things. And so this is really for
 older browsers, but I'm still a little conservative
 in my applications that I write. You probably won't bother. You'll just say console.log,
@@ -558,7 +569,9 @@ source view and hit refresh one time. Or if you hit the breakpoint
 then you had to hit refresh, unless you're in the pause debugger,
 because the page is already done. You hit refresh, the page is done, and
 you're looking at this line of code, well that code executed a while ago. Then you can set a breakpoint, and then refresh, and the next request response
-cycle is when you're going to see it. So sometimes to activate the debugger, you have to refresh the page
+cycle is when you're going to see it. 
+
+So sometimes to activate the debugger, you have to refresh the page
 after you set a breakpoint. And so at some point, you're sort of
 finding your way around in some source code, you find the code, and
 then you hit the button. And this little flag,
@@ -605,9 +618,10 @@ you can leave semicolons off, but I tend to just put
 semicolons on everything. And pretend I'm programming in C. A good C programmer can program in C
 no matter what language they're in. 
 
-Here's an example of a really bad white space, right? This is one sentence. It's ended by a semicolon, console.log. The new line doesn't matter,
-the indentation doesn't matter. None of that matters. It certainly matters
-to whoever's going to read your code, like me or the teaching assistants.
+Here's an example of a really bad white space, right? This is one sentence. It's ended by 
+a semicolon, console.log. The new line doesn't matter, the indentation doesn't matter. None 
+of that matters. It certainly matters to whoever's going to read your code, like me or the 
+teaching assistants.
 We don't want to read shit code, but it's a voluntary thing to
 make your code look pretty. But you should still do it. Variable names, you can use upper,
 lower case letters and numbers. And underscore and
@@ -1076,12 +1090,14 @@ kind of keep track of stuff, right? And so you can sort of work
 through this thing and see all the stuff that's happening. I make it go in slow motion
 by putting this alert in. I could also use the debugger and
 a breakpoint, if I wanted to, to see that, but I just want to stop it. So this is looking it up,
-pulling stuff out, and logging it. And then it alerts to stop it, mostly. And then it changes it and continues on. Yeah, so here's another one that basically
+pulling stuff out, and logging it. And then it alerts to stop it, mostly. And then it 
+changes it and continues on. Yeah, so here's another one that basically
 is sort of combining an onclick. And so what's going on here is I have two
 links, well, it's probably easier just for me to show you how this works. This is js-14, So js-14. Okay, so
 if I look the word Stuff is in here. So I have a span id="stuff" and I have an onclick the word BACK and
 FORTH, right? So I do a
-document.getElementId('stuff').innerHTML = the string BACK. If I click on that, then I return false. Remember you gotta return false. And then if you click on FORTH it's
+document.getElementId('stuff').innerHTML = the string BACK. If I click on that, then I 
+return false. Remember you gotta return false. And then if you click on FORTH it's
 going to change that text to be FORTH. So what I'm doing is
 overwriting this stuff, right? I'm grabbing it I'm
 going to change it to BACK, then I'm going to change it to FORTH. I'm going to change it to BACK and
@@ -1099,7 +1115,113 @@ things to happen as response to clicks. The previous example we just sort
 of had straight line code that just ran.
 
 <h3>Code Walkthrough: JavaScript/Profiles</h3>
-Hello and welcome to Web Applications for Everybody. In this walkthrough, we're going to walk through the assignment that's associated with the basic JavaScript lesson. Here it is. The assignment is to basically build a profile database. Now part of the philosophy of this assignment is I assume that you just finished the auto's CRUD assignment with a auto's table and the users table. And I want you to sort of build a second CRUD application. You can really look back at your old one for inspiration. But this is going to be the basis for the next couple of assignments for this course, so you ought to get this right. And if you just barely got it working in the previous assignment, then you should, sort of, take this opportunity to really understand what's going on. So let's play a little bit with it. It's got some JavaScript in it, some in browser JavaScript data validation. So let's take a look at this. Actually I'm going to show it to you on my local host, okay? But before I do, I want to set up my tables. And I got some tables here in my misc database. And I'm going to just drop those and show you how I have to start with tables. Obviously, if I run my code now, I think, blew up, right? But I give you some code to set this up. We've got to create table for users. Copy that over. Create table for the users and create table for profile. You got to create these in the order because there is the foreign key constraint. So if the user table doesn't exist you won't be able to create the profile table. Blooey, there that goes. So that makes that work now. If I go back to the assignment, I got to insert these hashed passwords. So I'm going to insert UMSI and the hashed password. Explaining all this stuff but then I kind of gave you the cheese steps that make your life a little easier. So now, so here we are at the resume. I'm going to use my local host one here, not the global one. So you can watch what's happening in the database. I got a profile, a data table and a user's table. So, the first thing is that you're supposed, this is the JavaScript that you're supposed to do in browser validation. And so if I do a view source on this page, you can see what I've got. And I've got, on the click of the login button, I've got, I'm going to run do validate, okay? And it's either going to give me a true, if it's valid and then actually submit the form or it's going to give me a false and blow up. And so you see there's a return true and return false etc, etc, etc. Now the interesting thing about JavaScript is I can't hide it from you. I mean the JavaScript runs in the browser. And so deep in the request response cycle, this is out here in your browser and no server action is going on at all right now. And so I can't hide it from you. So, I even show you all this. I give you all this code somewhere in here, right here, JavaScript validation. So I'm going mine will tell it to you because I'm going to show it to you. If you're smart enough to do a view source you can figure it out. So what happens is when I type this stuff, so I type this with no at sign and hit log in, JavaScript is going to run. And now what's going on is this alert, invalid email address has popped up. If I blank them all out and I hit it, the JavaScript will stop and say both fields must be filled out. Now if I get it right, so let's just put it in like the wrong stuff, that's going to be a server side check. No, that was the client's side check. Server, now it's a server side check. That's a server side check with a redirect, with the flash message. The whole thing, right? And so if I take a look at login.php. You know, this looks a lot like the login.php you've been doing all along. You know, this is a redirect. And then here is the do validate. And then, there's the script code. So, I put that all together in the login. That's very similar to the logins you've been working in before. Okay. So, let's log in successfully. UMSI, I have to redo the JavaScript here. PHP one, two, three. Login. Add a new entry. There's no JavaScript in these although soon we will. In the next assignment we'll be going crazy in these add things so we'll be changing the add and edit more in the next few assignments. Let's do a valid thing. There we go. Yeah, this is just CRUD, right? We're just going into like the profile table and it got first name, last name, email summary. It's a little different than the previous one that you did. But not that difficult to do. And so, there's no real JavaScript here. You just got to make the edit work. You got to do things like, you know, be able to put dancing characters in and do validation. You know, drop, drop, table, students, right? So, you've got to be able to put evil characters in and not have anything go bad, neither. Of course, SQL and Jackson is not going to happen because we're using PTO. But also not HTML injection, either. And of course, we take a look at this. We just see, oh that's what's in there. Okay. And then there we go. And so that's pretty all it. And then the delete just has a verification. Done make sure you HTML on all these and on this stuff as well. And there you go. And then you log out. So now, I want to log back in and show you a little bit about how the foreign key works. So, let me get logged back in. Log in. Okay. So, let me start by showing you something about log in. And it's in the assignment. So basically it says, when you're logging in, you're supposed to put, you set up the session. We've been doing this before, where you put user ID in to session. So, if we're in the log in, right? We have the user ID. We do a select for user ID. And what user ID, of course, is the primary key of the user record. So, in this case it's one, for this one that I just inserted, right? And so the idea is that you're going to take this, pull that out of the database and then we're going to store into the session. We're storing the user ID which is the number, the primary key of the user. And we're going to use that later, okay? And then we redirect back index.php. So now we're logged in and we're at add new entry. And so this an add new entry, of course, we're using these pieces of information to tell whether or not we're allowing the add to happen. We've been protecting these this way for a while. And basically, if there is no user ID in a session, that die with access denied, okay? So now, let's go ahead and add the entry. Now, part of what it says is when you add this, you need to have a foreign key. So, let's go back to the foreign key. The foreign key is the pointer in the profile that goes to user ID. So, this is the profile ID is the primary key in this table. User ID is the foreign key in this table. And so you're supposed to when you're adding a record, there are no records currently in, you're supposed to set this user ID to the current logged in user. The current logged in user's primary key is sitting in session because you put it in session in the login code. So, and I gave you this, I gave you most of it in the handout, right? So, the user ID which is going to be inserted in the user ID with a little place for UID. And then that's going to pull it out of the session. So, that is creating a new record in profile that has a foreign key into the user table that has the user ID, okay? And so, that's pretty much it, right? So, here's that code. Here's this code in here, right? We're going to do the insert and we're going to pull this number out. And so I'm logged in as user number one. And so now, when I run this thing successfully, I'm going to do an add and it's going to run that insert. But if I go look in my table right now, in the profile table, you see that there's that foreign key. And because we told my SQL that that's a foreign key, it actually is a hyperlink then we can jump into the user table to find the corresponding record in the user table, okay? And so that you have to do. And in upcoming assignments, you're going to have to be creating these foreign key links. The next assignment is going to be many-to-one relationship and the last assignment is going to be a many-to-many relationship. And so that's an important part of this assignment. And so I hope that you pretty much, I think I covered almost everything I wanted to cover. Good luck in this assignment. And I just want to emphasize that do this one really well. Take your time. Understand every line of code. I know I say that in every assignment. That's because it's the only way we can build to increasingly difficult assignments. Okay? Thanks for listening.
+Hello and welcome to Web Applications for Everybody. In this walkthrough, we're going to 
+walk through the assignment that's associated with the basic JavaScript lesson. Here it 
+is. The assignment is to basically build a profile database. Now part of the philosophy 
+of this assignment is I assume that you just finished the auto's CRUD assignment with a 
+auto's table and the users table. And I want you to sort of build a second CRUD application. 
+You can really look back at your old one for inspiration. But this is going to be the 
+basis for the next couple of assignments for this course, so you ought to get this right. 
+And if you just barely got it working in the previous assignment, then you should, sort 
+of, take this opportunity to really understand what's going on. So let's play a little 
+bit with it. It's got some JavaScript in it, some in browser JavaScript data validation. 
+
+So let's take a look at this. Actually I'm going to show it to you on my local host, okay? 
+But before I do, I want to set up my tables. And I got some tables here in my misc database. 
+And I'm going to just drop those and show you how I have to start with tables. Obviously, 
+if I run my code now, I think, blew up, right? But I give you some code to set this up. 
+We've got to create table for users. Copy that over. Create table for the users and create 
+table for profile. You got to create these in the order because there is the foreign key 
+constraint. So if the user table doesn't exist you won't be able to create the profile table. 
+Blooey, there that goes. So that makes that work now. If I go back to the assignment, I 
+got to insert these hashed passwords. So I'm going to insert UMSI and the hashed password. 
+Explaining all this stuff but then I kind of gave you the cheese steps that make your life 
+a little easier. So now, so here we are at the resume. I'm going to use my local host one 
+here, not the global one. So you can watch what's happening in the database. I got a profile, 
+a data table and a user's table. So, the first thing is that you're supposed, this is the 
+JavaScript that you're supposed to do in browser validation. 
+
+And so if I do a view source 
+on this page, you can see what I've got. And I've got, on the click of the login button, 
+I've got, I'm going to run do validate, okay? And it's either going to give me a true, if 
+it's valid and then actually submit the form or it's going to give me a false and blow up. 
+And so you see there's a return true and return false etc, etc, etc. Now the interesting 
+thing about JavaScript is I can't hide it from you. I mean the JavaScript runs in the 
+browser. And so deep in the request response cycle, this is out here in your browser and 
+no server action is going on at all right now. And so I can't hide it from you. So, I even 
+show you all this. I give you all this code somewhere in here, right here, JavaScript 
+validation. So I'm going mine will tell it to you because I'm going to show it to you. 
+
+If you're smart enough to do a view source you can figure it out. So what happens is when 
+I type this stuff, so I type this with no at sign and hit log in, JavaScript is going to 
+run. And now what's going on is this alert, invalid email address has popped up. If I 
+blank them all out and I hit it, the JavaScript will stop and say both fields must be 
+filled out. Now if I get it right, so let's just put it in like the wrong stuff, that's 
+going to be a server side check. No, that was the client's side check. Server, now it's 
+a server side check. That's a server side check with a redirect, with the flash message. 
+The whole thing, right? And so if I take a look at login.php. You know, this looks a lot 
+like the login.php you've been doing all along. You know, this is a redirect. And then 
+here is the do validate. And then, there's the script code. So, I put that all together 
+in the login. That's very similar to the logins you've been working in before. 
+
+Okay. So, let's log in successfully. UMSI, I have to redo the JavaScript here. PHP one, two, three. 
+Login. Add a new entry. There's no JavaScript in these although soon we will. In the next 
+assignment we'll be going crazy in these add things so we'll be changing the add and edit 
+more in the next few assignments. Let's do a valid thing. There we go. Yeah, this is just 
+CRUD, right? We're just going into like the profile table and it got first name, last name, 
+email summary. It's a little different than the previous one that you did. But not that 
+difficult to do. And so, there's no real JavaScript here. You just got to make the edit 
+work. You got to do things like, you know, be able to put dancing characters in and do 
+validation. You know, drop, drop, table, students, right? So, you've got to be able to 
+put evil characters in and not have anything go bad, neither. Of course, SQL and Jackson 
+is not going to happen because we're using PTO. But also not HTML injection, either. And 
+of course, we take a look at this. We just see, oh that's what's in there. Okay. And then 
+there we go. And so that's pretty all it. And then the delete just has a verification. 
+Done make sure you HTML on all these and on this stuff as well. And there you go. 
+And then you log out. 
+
+So now, I want to log back in and show you a little bit about how the foreign key works. 
+So, let me get logged back in. Log in. Okay. So, let me start by showing you something 
+about log in. And it's in the assignment. So basically it says, when you're logging in, 
+you're supposed to put, you set up the session. We've been doing this before, where you 
+put user ID in to session. So, if we're in the log in, right? We have the user ID. We do 
+a select for user ID. And what user ID, of course, is the primary key of the user record. 
+So, in this case it's one, for this one that I just inserted, right? And so the idea is 
+that you're going to take this, pull that out of the database and then we're going to 
+store into the session. We're storing the user ID which is the number, the primary key 
+of the user. And we're going to use that later, okay? And then we redirect back index.php. 
+So now we're logged in and we're at add new entry. And so this an add new entry, of course, 
+we're using these pieces of information to tell whether or not we're allowing the add to 
+happen. We've been protecting these this way for a while. And basically, if there is no 
+user ID in a session, that die with access denied, okay? 
+
+So now, let's go ahead and add the entry. Now, part of what it says is when you add this, 
+you need to have a foreign key. So, let's go back to the foreign key. The foreign key is 
+the pointer in the profile that goes to user ID. So, this is the profile ID is the primary 
+key in this table. User ID is the foreign key in this table. And so you're supposed to when 
+you're adding a record, there are no records currently in, you're supposed to set this user 
+ID to the current logged in user. The current logged in user's primary key is sitting in 
+session because you put it in session in the login code. So, and I gave you this, I gave 
+you most of it in the handout, right? So, the user ID which is going to be inserted in 
+the user ID with a little place for UID. And then that's going to pull it out of the session. 
+
+So, that is creating a new record in profile that has a foreign key into the user table that 
+has the user ID, okay? And so, that's pretty much it, right? So, here's that code. Here's 
+this code in here, right? We're going to do the insert and we're going to pull this number 
+out. And so I'm logged in as user number one. And so now, when I run this thing successfully, 
+I'm going to do an add and it's going to run that insert. But if I go look in my table right 
+now, in the profile table, you see that there's that foreign key. And because we told my SQL 
+that that's a foreign key, it actually is a hyperlink then we can jump into the user table 
+to find the corresponding record in the user table, okay? And so that you have to do. And 
+in upcoming assignments, you're going to have to be creating these foreign key links. 
+
+The next assignment is going to be many-to-one relationship and the last assignment is 
+going to be a many-to-many relationship. And so that's an important part of this assignment. 
+And so I hope that you pretty much, I think I covered almost everything I wanted to cover. 
+Good luck in this assignment. And I just want to emphasize that do this one really well. 
+Take your time. Understand every line of code. I know I say that in every assignment. 
+That's because it's the only way we can build to increasingly difficult assignments. 
+Okay? Thanks for listening.
 
 <h1>I don't know</h1>
 
