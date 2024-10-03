@@ -574,12 +574,14 @@ what's going wrong with your JavaScript. So up next, we're going to talk
 about JavaScript kind of as a programming language.</p>
 
 <!-- comment out the following for documentation only -->
+```
 & --> &amp;<br/>
 < --> &lt;<br/>
 > --> &gt;<br/>
 " --> &quot;<br/>
 ' --> &#x27;     &apos; is not recommended<br/>
 / --> &#x2F;     forward slash is included as it helps end an HTML entity<br/>
+```
 
 <h3>JavaScript - Core Language Features</h3>
 As I mentioned at the beginning, JavaScript is an awesome language. It is a wonderful 
