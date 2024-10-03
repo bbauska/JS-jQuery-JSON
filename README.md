@@ -591,55 +591,54 @@ and careful. The other thing that's cool about JavaScript is it's evolving and g
 ideas from other languages. Because it's such a popular language it gets sort of regularly 
 improved for PHP 7 or JavaScript 6. So it keeps getting better and better. And so I assume 
 that you already know programming languages in general. 
+
 I'm just going to highlight the cool things that are unique to JavaScript that might be 
 different especially because there's a lot of overlapping between PHP and JavaScript 
 because they're both C-based languages. They're both inspired by C. So comments on 
 JavaScript Awesome. &#x2F;&#x2F; which is a C++ comment to the end of the line. And then 
-&#x2F;* 
-which is an older C style comment is a multiline comment that goes across multiple lines. 
+&#x2F;&ast; which is an older C style comment is a multiline comment that goes across multiple lines. 
 These are used for documenting functions. That's very nice. Languages that don't have multiline
 comments, I'm like grumpy about that. I'm talking about you, Python. Why don't have decent comments? I have to use triple quotes,
-which are actually strings! They're not comments, [SOUND]. Okay, so like any C based language,
+which are actually strings! They're not comments. Like any C based language,
 white spaces and newlines do not matter, statements end with a semicolon. There are certain situations where
 you can leave semicolons off, but I tend to just put
-semicolons on everything. And go pretend I'm programming in C. A good C programmer can program in C
-no matter what language they're in. And here's an example of
-a really bad white space, right? This is one sentence. It's ended by a semicolon, console.log. The new line doesn't matter,
+semicolons on everything. And pretend I'm programming in C. A good C programmer can program in C
+no matter what language they're in. 
+
+Here's an example of a really bad white space, right? This is one sentence. It's ended by a semicolon, console.log. The new line doesn't matter,
 the indentation doesn't matter. None of that matters. It certainly matters
 to whoever's going to read your code, like me or the teaching assistants.
-We don't want to read icky code, but it's a voluntary thing to
+We don't want to read shit code, but it's a voluntary thing to
 make your code look pretty. But you should still do it. Variable names, you can use upper,
 lower case letters and numbers. And underscore and
 dollar as the first character. Now, it can't start with a number but
-you can start with a dollar. And I sort of don't quite
-know why they did that. But I think they were trying to make
+you can start with a dollar (&dollar;). And I don't quite know why they did that. But I think they were trying to make
 it seem more like a scripting language. And scripting languages like Perl and
 Bash and Python to some degree have, PHP have dollar signs,
-not Python, has dollar signs. And so they we're trying to sort
-of make it a more approachable and easily understood language. And so generally people just say,
+not Python, has dollar signs. And so they we're trying to make it a more approachable and easily understood language. And so generally people just say,
 don't do dollar signs, they're tacky. And then it pretty much
 functions like any normal and decent programming language in
-terms of the variable name choices. Case sensitive matters,
+terms of the variable name choices. 
+
+Case sensitive matters,
 but don't play with that. We can use case to mean stuff, but
 don't create a variable called bob and Bob and expect them to be different. They are different, but don't do it. You just make people angry who
 read your code at that point. String constants are nice in JavaScript
 in that they are the same for single quotes and double quotes. Though the escaping like the new line,
 of course, this whole \n stuff, that's a C idea,
-so you see that in most C languages. What we tend to do in JavaScript, and it's
-kind of the same in PHP, is we tend to use single quotes in JavaScript because
-double quotes are required in HTML. So the script tag is HTML, /script
+so you see that in most C languages. What we tend to do in JavaScript, and it's the same in PHP, is we tend to use single quotes in JavaScript because
+double quotes are required in HTML. So the script tag is HTML, / script
 tag is HTML, this is JavaScript. So I in my own thinking, I tend to use single quotes whenever I
 possibly can in JavaScript to avoid. So I can just look at a line of code and
 go that's the JavaScript, that's not the HTML. because we're often mixing HTML. And sometimes we're writing document.write
 that has HTML and it's got double quotes. Single quotes for the string, double quotes inside the string
-because we're writing HTML. And so, reserve the double quotes for
-HTML whenever you possibly can. Numeric constants work the way
+because we're writing HTML. Reserve the double quotes for HTML whenever you possibly can. Numeric constants work the way
 that you would expect. And now we'll talk about some of the features
 of the JavaScript programming language.</p>
 
 <h3>JavaScript - Variables and Expressions</h3>
-So one of the important parts of any programming language is the operators and the expressions. 
-And so these, of course, are very much like all C-based languages. We have our plus, minus, 
+One of the important parts of any programming language is the operators and the expressions. 
+These, of course, are very much like all C-based languages. We have our plus, minus, 
 multiplication is asterisk, division is slash. Division, unlike Python2, is it creates floating 
 point based on just like you might expect from a calculator. So if you take 9/2, you get 4.5. 
 Modulo, which is an integer division that gives you back the remainder. And then there are these 
@@ -649,37 +648,230 @@ like j += 5, which is the same as j = j + 5. And again, these are contractions t
 to avoid, unless, we have a reason to kind of make our syntax really dense. The comparison 
 operators are very much like PHP and the C language. So we have, the big thing to remember 
 is that there's an assignment statement, that's the =, and == is the question mark. So asking 
-the question is j = 10? is double equal sign. And then, from that not equal flows, less than, less than, greater than, less than or equals, all are kind of straight forward. And there's two kinds of equality operators, one is the ==, which is effectively numeric equivalence or equivalence after type conversion. And then the ===, is comparison without type conversion. So if I put false into j, and we had the same thing in PHP, false into j. And let's say, is false numerically equal to 0? And the answer is yes. Is false identical to 0? And the answer is no, it is not, okay? And is false identical to false? Yes, it is. And there is also a not triple equals. And again, these are very PHP like. It's funny, I like these. I was probably going to do some programming in Java, the big language Java. And I didn't have these, and I'm like, Oh if it's false. But in Java, the equality is different because you don't do auto type conversion. And so in languages like PHP and JavaScript to do automatic type conversion, you have to have an equality test that stops the automatic type conversion, because this implies an automatic type conversion. In the language like Java, that's a strict type language. You can't have two types. You can't check the equality of two different types because just a syntax error. But in JavaScript, we have numeric equality and absolute equality, which is type and value. The logical operators are, again, straight from the C language. && is logical AND. So both sides must be true. true && true becomes true. OR, meaning either side, you know, true || false becomes true, because only either side has to be true. Greater than. Greater than and NOT, in logical expressions are as an !, like in C languages. If we're looking at that, that would be exactly as it is in C. And if we're looking at all of these things, they would be exactly the same as the C language and the Java language, except these things are, they're used in C like languages that don't have strict typing. Concatenation. PHP, I love the dot concatenation operator, but I accept the fact that it will never be in any other language except PHP. We use + to do concatenation. And then of course, it does string conversions automatically. It's not like Python where you've got to get the types exactly right. The + simply says: "Oh, I got a string and a number. Let's turn that number into a string so I concatenated it together." And so, x becomes the string 12. And so we concatenate "Hello 12 people". And like all languages, this doesn't add a space. And so these two spaces are explicitly put into the string so that they actually work. JavaScript is a loosely typed language. There's a video that perhaps, I'll put a reference elsewhere to, that's kind of funny, about how adding things together, different types, it's all very consistent, but it's not something that a beginner would predict. And so in this case, let's just take a look at some silly things. 123 + 10. Well, is that a numeric? Well, in PHP that would be deterministic because + is a numeric operator, but + is not a numeric operator. It might be concatenation, it might be a numeric. In this case, it sees it as concatenation. And so we get a string "12310". But multiplication is a numeric operator. So, "123" times 1 is the number 123 and then you add 10 to it and that's 133. And this is different than PHP, the string "fred" multiplied by 1 that's a numeric, no numeric operation. And instead of pretending that fred is zero like PHP would do because PHP is very loosely typed, JavaScript has this notion of Not a Number (NaN). And so, when it looks at "fred" and tries to convert "fred" into a number, it goes that's not a number. And then not a number * 1 is NaN. And if you take x which then ends up being NaN and then + 1 to it, NaN + 1 is still NaN. So that NaN is kind of a sticky thing. And it just kind of fun to look in some UI and blah blah blah blah blah NaN. And it's always, you know, uppercase and lowercase and and you're like: "Oh they did some conversion." They're just some calculation in JavaScript and it didn't work out so well. And so you see NaN in all kinds of user interfaces and you know that they're doing math in JavaScript and they got some kind of a bad value divided by zero or took an undefined thing and multiply that by something else. And then they printed it out in the document object model and it came out as a NaN. That's kind of a running joke of JavaScript is that NaNs. So NaN, like I said, is sticky. You can check to see if a variable is a NaN, like isNaN() is a function that returns true or false. Dividing by zero gives you Infinity. And these are actually, so JavaScript seems weird in this case, but in a way JavaScript is, sort of, more right. So dividing by zero shouldn't be, you know, an error just Infinity. So that's what it is mathematically. And there's situations that are mathematically NaN. And so, there is kind of an underlying official standard for how numbers are supposed to function, and JavaScript is probably closer to those than other languages like PHP. So, even though we make fun of NaN all the time, it's probably a more responsible numeric implementation than some other systems might have. There is a typeof operator that can tell you whether something is a string or an integer or whatever. And it returns itself a string, which means that you can put that in 'if' statement. You can say if typeof variable == "string" and it will tell you something, and that's a common thing that we do. Functions are an important part of any programming language. There's lots about JavaScript functions that are exactly as you might expect. There's a function, this again very C-like function, name function arguments to the function. The arguments by default are passed by value not passed by reference, and then you can have a return value and that all sort of works the exact way that you would expect in any other programming language. So, that part's pretty straightforward. But the weird part, someday I'd like to know why. But the weird part is, one of the things that I always talk about when I talk about functions is how they are like isolated by default from the outside world. The only thing that we touch are the parameters that go in and the return value that comes out. And the stuff that goes on in the function, generally, does not sort of bleed out into the outside world by default. Not true in JavaScript, super not true in JavaScript, freakishly not true in JavaScript. So in JavaScript, if there is a variable, you're coming down and this is done in sequence, the fact that this gl is before the function actually matters. Because it's sort of evaluating this in order. And it looks at this thing and says: "Oh, you didn't tell me that this was local and there is a variable that's global, so I'll just make these two things the same." So at this point, we have gl out here. It ends up with 123 and then this code runs, and it's the same gl, and so that changes this to 456. And so, when we run the check function, it changes to 456, and then we print it out, and out comes 456. I think that's like a not a very good feature by default but it is and we can't change it. So one of the things you see in JavaScript, all responsible JavaScript programmers have used var, var, var, var, var. Like, don't forget to use the var. So what var says is, var, effectively, draws what I wish was default to say this is a local variable, even though there is a variable globally of the same name. This gl does not, sort of, smear out or percolate out beyond its boundaries, somehow. And so in this case, there are two gls. There is a gl in here and a gl out here. This one gets 123 in it. The code runs. This one gives 456 in it. Then the code comes back and then the global one is unchanged. And so, that's really the way you want it. So, you think to yourself, why do I have to keep doing this? You've got to put var in. I have written a lot of JavaScript where the mistake was like, why isn't this working? Well, it's because I didn't have the var. I'm like, put the var in. So, just get used to it, it's a little weird, you have to explicitly mark variables within functions as if they are local. So, you have to explicitly say it, it's not like any other, well at least most other commonly used program languages don't do that. So next, we'll talk about arrays. Arrays and objects are always sort of the fun part of any programming language.
+the question is j = 10? is double equal sign. And then, from that not equal flows, less than, 
+less than, greater than, less than or equals, all are kind of straight forward. And there's 
+two kinds of equality operators, one is the ==, which is effectively numeric equivalence or 
+equivalence after type conversion. And then the ===, is comparison without type conversion. 
+So if I put false into j, and we had the same thing in PHP, false into j. And let's say, is 
+false numerically equal to 0? And the answer is yes. Is false identical to 0? And the answer 
+is no, it is not, okay? And is false identical to false? Yes, it is. And there is also a not 
+triple equals. And again, these are very PHP like. It's funny, I like these. I was probably 
+going to do some programming in Java, the big language Java. And I didn't have these, and I'm 
+like, Oh if it's false. But in Java, the equality is different because you don't do auto type 
+conversion. And so in languages like PHP and JavaScript to do automatic type conversion, you 
+have to have an equality test that stops the automatic type conversion, because this implies 
+an automatic type conversion. In the language like Java, that's a strict type language. You 
+can't have two types. You can't check the equality of two different types because just a syntax 
+error. But in JavaScript, we have numeric equality and absolute equality, which is type and 
+value. The logical operators are, again, straight from the C language. && is logical AND. So 
+both sides must be true. true && true becomes true. OR, meaning either side, you know, true || false 
+becomes true, because only either side has to be true. Greater than. Greater than and NOT, in logical 
+expressions are as an !, like in C languages. If we're looking at that, that would be exactly as it 
+is in C. And if we're looking at all of these things, they would be exactly the same as the C 
+language and the Java language, except these things are, they're used in C like languages that 
+don't have strict typing. Concatenation. PHP, I love the dot concatenation operator, but I 
+accept the fact that it will never be in any other language except PHP. We use + to do 
+concatenation. And then of course, it does string conversions automatically. It's not like 
+Python where you've got to get the types exactly right. The + simply says: "Oh, I got a 
+string and a number. Let's turn that number into a string so I concatenated it together." 
+And so, x becomes the string 12. And so we concatenate "Hello 12 people". And like all languages, 
+this doesn't add a space. And so these two spaces are explicitly put into the string so that they 
+actually work. JavaScript is a loosely typed language. There's a video that perhaps, I'll put a 
+reference elsewhere to, that's kind of funny, about how adding things together, different types, 
+it's all very consistent, but it's not something that a beginner would predict. And so in this 
+case, let's just take a look at some silly things. 123 + 10. Well, is that a numeric? Well, in 
+PHP that would be deterministic because + is a numeric operator, but + is not a numeric operator. 
+It might be concatenation, it might be a numeric. In this case, it sees it as concatenation. And 
+so we get a string "12310". But multiplication is a numeric operator. So, "123" times 1 is the 
+number 123 and then you add 10 to it and that's 133. And this is different than PHP, the string 
+"fred" multiplied by 1 that's a numeric, no numeric operation. And instead of pretending that 
+fred is zero like PHP would do because PHP is very loosely typed, JavaScript has this notion of 
+Not a Number (NaN). And so, when it looks at "fred" and tries to convert "fred" into a number, 
+it goes that's not a number. And then not a number &ast; 1 is NaN. And if you take x which then 
+ends up being NaN and then + 1 to it, NaN + 1 is still NaN. So that NaN is kind of a sticky thing. 
+And it just kind of fun to look in some UI and blah blah blah blah blah NaN. And it's always, you 
+know, uppercase and lowercase and and you're like: "Oh they did some conversion." They're just some 
+calculation in JavaScript and it didn't work out so well. And so you see NaN in all kinds of user 
+interfaces and you know that they're doing math in JavaScript and they got some kind of a bad value 
+divided by zero or took an undefined thing and multiply that by something else. And then they 
+printed it out in the document object model and it came out as a NaN. That's kind of a running 
+joke of JavaScript is that NaNs. So NaN, like I said, is sticky. You can check to see if a variable 
+is a NaN, like isNaN() is a function that returns true or false. Dividing by zero gives you Infinity. 
+And these are actually, so JavaScript seems weird in this case, but in a way JavaScript is, sort of, 
+more right. So dividing by zero shouldn't be, you know, an error just Infinity. So that's what it is 
+mathematically. And there's situations that are mathematically NaN. And so, there is kind of an 
+underlying official standard for how numbers are supposed to function, and JavaScript is 
+probably closer to those than other languages like PHP. So, even though we make fun of NaN 
+all the time, it's probably a more responsible numeric implementation than some other systems 
+might have. There is a typeof operator that can tell you whether something is a string or an 
+integer or whatever. And it returns itself a string, which means that you can put that in 'if' 
+statement. You can say if typeof variable == "string" and it will tell you something, and that's 
+a common thing that we do. Functions are an important part of any programming language. There's 
+lots about JavaScript functions that are exactly as you might expect. There's a function, this 
+again very C-like function, name function arguments to the function. The arguments by default are 
+passed by value not passed by reference, and then you can have a return value and that all sort of 
+works the exact way that you would expect in any other programming language. So, that part's pretty 
+straightforward. But the weird part, someday I'd like to know why. But the weird part is, one of the 
+things that I always talk about when I talk about functions is how they are like isolated by default 
+from the outside world. The only thing that we touch are the parameters that go in and the return 
+value that comes out. And the stuff that goes on in the function, generally, does not sort of bleed 
+out into the outside world by default. Not true in JavaScript, super not true in JavaScript, 
+freakishly not true in JavaScript. So in JavaScript, if there is a variable, you're coming down 
+and this is done in sequence, the fact that this gl is before the function actually matters. 
+Because it's sort of evaluating this in order. And it looks at this thing and says: "Oh, you 
+didn't tell me that this was local and there is a variable that's global, so I'll just make 
+these two things the same." So at this point, we have gl out here. It ends up with 123 and 
+then this code runs, and it's the same gl, and so that changes this to 456. And so, when we 
+run the check function, it changes to 456, and then we print it out, and out comes 456. I think 
+that's like a not a very good feature by default but it is and we can't change it. So one of the 
+things you see in JavaScript, all responsible JavaScript programmers have used var, var, var, var, 
+var. Like, don't forget to use the var. So what var says is, var, effectively, draws what I wish 
+was default to say this is a local variable, even though there is a variable globally of the same 
+name. This gl does not, sort of, smear out or percolate out beyond its boundaries, somehow. And 
+so in this case, there are two gls. There is a gl in here and a gl out here. This one gets 123 
+in it. The code runs. This one gives 456 in it. Then the code comes back and then the global 
+one is unchanged. And so, that's really the way you want it. So, you think to yourself, why do I have to keep doing this? You've got to put var in. I have written a lot of JavaScript where the mistake was like, why isn't this working? Well, it's because I didn't have the var. I'm like, put the var in. So, just get used to it, it's a little weird, you have to explicitly mark variables within functions as if they are local. So, you have to explicitly say it, it's not like any other, well at least most other commonly used program languages don't do that. So next, we'll talk about arrays. Arrays and objects are always sort of the fun part of any programming language.
 
 <h3>JS - Arrays and Control Structures</h3>
 So like PHP and Python and the other languages that we've been familiar with, Javascript has Linear Arrays and associative structures but the associative arrays are actually objects and so we'll kind of talk about them in more detail in the next major lecture where we talk about Object- Oriented Programming. It's kind of interesting that in Javascript, you have to learn about Object-Oriented earlier than other languages, another reason why I'm not a fan of Javascript as first language. But it turns out that Javascript objects are super powerful and flexible and gorgeous and so we'll get to them. So, a Linear Array is quite straightforward. You say [ ] and then you have commas and that's an array. Now, the interesting thing is if you read about JSON, you might have actually seen the Javascript notation for arrays and objects already because JSON is exactly the same notation and it's similar to Python as well. This is a Linear Array, that's 0, 1, 2, 3, 4, and then you can have key values things, but these are objects, not arrays and we'll get to that. You can say a[0] which will get you the zeroth thing, "x" and b['name']. This is the part that kind of confuses people because that basically says, go into the object b and look up the attribute "name". But that's in quotes and it just is a little bit strange but you can kind of pretend that objects are associative arrays and you can even make them just like you made an object that has no quote in it but it just has data in it as a set of key value pairs. People coming from languages like PHP that expect associative arrays to have key value capabilities, they just kind of make objects and don't worry too much about it. We'll get the objects in greater detail later. You can also kind of construct arrays through various ways, you can make a sort of fresh empty array and then push things onto the end of it so you can have this array and you keep adding to the end of these things. Push, push, push, and so we end up with "first" and "second", or you can say array [0] equals "first" and array [1] one equals "second" and then you end up with an array that looks like that. So, that's another way of kind of building an array up from little pieces. You can also use the constructor style where you just put the list of things that you want in the array. This little bracket syntax is sort of a shorthand for the constructor style of making a, in this case, two element array. Control structures, again, since you're coming from PHP, we're not going to go over everything that's the same as PHP because operator is the same as PHP. "if" statements are like PHP, while loops are like PHP, for loops are like the PHP counted loops. All right? We'll talk about that, and break and continue work a lot like PHP. That's part of the reason that I like teaching PHP first because they're both C-like languages and then I can go on and just say, hey, remember all this stuff we've done in PHP? There is a difference between the definite loops and PHP use 'foreach' but in Javascript, we use 'for'. In this case, we're going to say for ball in balls, which is kind of a little Python-like actually, this is the iteration variable and this is the collection. This is an object but don't worry about it, we'll just pretend it's a key value array for now. This basically says is that ball, the iteration variable is going to go through the successive keys in here and then we can just say balls[ball] to look up these values, the corresponding values as you go through. It doesn't have a Python-like to iteration variable thing. This will loop through and go through and hit them all. Up next, we're going to talk about playing with the Document Object Model in Javascript.
 
 <h3>Code Walk-Through: JavaScript</h3>
-So, one of the first things I always like to do when I am programming is how to get a debug statement. Okay? And the alert() takes as a parameter, a single string, and it prints it out. So here's a very simple bit of JavaScript. The browser sort of runs this and it stops. And depending on your browser, it may actually stop when in the middle while the page is still displaying. So let's take a look at this particular one. Let me clear this and go and run this one. Here's the sample code. Run this first one where you saw that one, make this just a little bigger here. And you see this little thing is still spinning. Right over here, it's still spinning. And that's because it's sort of still processing the page, and the alert has actually completely stopped the JavaScript. So the thing is going to happen right after the alert, won't happen until I press OK and then it finishes. Okay? So the alert stops right now, and it's really stopping the interpretation of this page. So alert doesn't just print out output, but it stops JavaScript processing. So it's a pretty strong form of debugging, if that makes any sense. So alert is just an executable statement. There are three ways that you can put JavaScript into a document. One is inline within the document using a script tag. You can also put it on things like onclick methods on things like hrefs, et cetera, or you can include a whole file. See all of these examples. So this is some code that we've sort of been playing with all along, but now it is time to sort of understand what's going on here. So this is an anchor tag that is this tag right here, and we have an onclick method. So this is within the anchor tag creates, and it says when someone clicks on this anchor tag, I want to run this JavaScript right here. So the bit in between double quotes is JavaScript. And JavaScript can use single quotes or double quotes of strings. So we tend to reserve the double quotes for HTML. So onclick="something" That's HTML. And then 'Hi', single quotes, in this case, is some JavaScript, and we're calling alert. Now, return false has to do with, normally, if you were to click on an href, it would actually follow that link. Okay? But if you say return false, it won't follow link. Just run this code and not follow the link. Okay? So, let's take a look at that one. So if I click, it's going to actually run the JavaScript rather than doing what it normally would do. And if you recall, it would go to js-01.htm, but it's not going to because we did the return false. Okay? So return false is the way to indicate that we don't actually want to do what normally would have happened if the click happened. So you can do both the onclick method and then let the tag do what it normally would do, or you can say, "I'm taking over and doing that." So this is just one form. We're putting JavaScript right on a tag. So here's another way to do it. And so this, when we show before, where we just did a script tag and an end script tag and then had document right. You might see something like this on HTML5. We tend not to do this, but this is validation to make sure that the JavaScript passes a strict HTML 4.0 validation. But that's less important as we're moving to HTML5. So we talked about this one. And then the third way to do this is to actually use the same script tag and say, "I would like to load this file." And this then script.js has to be a file that has some content in it. And in this case, we just have one line of JavaScript. We don't have a script tag. It's just JavaScript itself. It knows that it's JavaScript by the fact that we're inlining it. And so that's as if we typed all that stuff here. Now, this is kind of a silly little example. It actually just moves that document right into the file, but that's another form of including JavaScript that you will commonly see. So syntax errors in JavaScript are a little bit different. I mean, we can make mistakes, it's a programming language, but the problem is that most of the time you're using a JavaScript page that you did not write, and you're just using Twitter. And if there's a JavaScript error in a Twitter page, you, as the Twitter user, it doesn't do much good for you to be told that there's a JavaScript error because you can't fix it. Syntax error, missing semi-colon, who knows what it's going to be? So the browsers tend to be very, very silent about any kind of a JavaScript error, but the code dies. Sometimes, there's a little red icon that shows up in the lower left hand corner. So here's just an example of a bit of bad JavaScript where we're just going to have a double quote that starts and ends in a single quote. So that's a syntax error. And what we will see is that this will run, it will die here, so this code doesn't finish, but then it actually gives up on that script block and then continues, and you'll see that this one will run later. Okay? So let's go ahead and show this, js-05. So it did not tell us anything about that first syntax error, but it didn't run that second alert. And then it actually finishes. Okay? So like I said, the end user is really not supposed to see the error, but we, as a developer, need to look for errors. And so as we're writing JavaScript, you instinctively, something won't work, you make a change and it won't work and your brain's got to go like, "Oh wait, wait, wait, I made an error. I've got to actually explicitly look for it." And so there are developer modes in all of these browsers. I'll play with the Chrome one here. So let's take a look at how you turn on developer mode. Sometimes you have to enable this little message to just show up. But at the end of the day, I can like to view JavaScript console, and I'm going to hit refresh, and you will sort of see what's going on here. It runs, but I see the error, and I can even click right here, and I can see the exact place that the error happens. So increasingly, these browsers all have nice debugger modes in them, and I just popped up a debugger, and it's got this little thing, and I can look at the console. I can look at the code and go back and forth. And so this is a useful thing, and you, as a developer, you'll tend to often just leave this sitting down here at the bottom when you're working on code all the time, where it's like, "I just leave this on all the time." You'd kind of do it with console, and you run it, and you see something like, "Oh wait, wait, wait, wait." And then you know how to go look for that error. Okay? So that's very important because there's no good way to see these things, unless you've got this console turned on. Sometimes your browser will say go look up JavaScript errors, but it really wants to hide these from end users. You, as the developer, the website have to get the stuff right. So alert is kind of a blunt instrument, in that, it stops running the code, and sometimes you have a loop or something, you want to put some debugging in it. And so these debuggers have added a console.log method, and you can pass in a string, and you can console.log all kinds of stuff. And so basically, what you can do with a debugger turned on is, you say console.log and it'll come out in the log. And so this same console.log that we were seeing allows you to see things, and it just runs. So that console.log is a very useful thing, and it allows you to even inside of a loop or inside of an event or an onclick method to be logging stuff without stopping. If you do an alert, it stops. But if you do a console.log, it just streams by in the debugger window. And if you don't, the end user doesn't see this, only developers might see it. So I tend in some of my sites, you can go look at them, and you'll see the consoles talking. And you can see a play by play of what's going on inside of one of my sites. Now, depending on the browser, the console object may or may not always be there. Sometimes it's there when the debugger is on. Sometimes it's not there when the debugger is off. So my favorite thing to do is, whenever I'm going to do a console.log, I say window.console which won't cause an error, &&. So that means that if a console exists, then I will call console.log. This is just a real succinct way of saying that window.console and console.log. Another way to do it, you can look up all kinds of ways to deal with console.log. This is my preferred way to do it, but if the console function doesn't exist, console variable doesn't exist, it sort of sets that up and sets a log function. But this is my favorite way to do that. So the debugger, as we mentioned, is a great tool for debugging JavaScript. You can pause the debugger. So let me show you how to do that. Let me go back. You can pause code. Sorry, got to clear that. Pause code. So here's js-01, right? And I can look at the source, and I can put a breakpoint here by clicking right there. So I now have a breakpoint at that point. Now, the page is already run. So once I set the breakpoint, I've got to hit refresh once to load the page. Now that knows where the breakpoint is supposed to be, it'll run up and stop at the breakpoint. Okay? And so now, it is paused in the debugger. You can see this pause in the debugger. You see this little spinny guy, meaning the page isn't done loading yet because we've stopped it and we can look at variables and global variables. There's all kinds of stuff that we can look at, Document Object Model, all kinds of things. And I just click right here to continue the debugger. And so the page completes. Now that's a very, very, very simple introduction to using the JavaScript debugger, but it is very, very valuable and you'll get used to how this all works after awhile.
+So, one of the first things I always like to do when I am programming is how to get a 
+debug statement. Okay? And the alert() takes as a parameter, a single string, and it 
+prints it out. So here's a very simple bit of JavaScript. The browser sort of runs this 
+and it stops. And depending on your browser, it may actually stop when in the middle 
+while the page is still displaying. So let's take a look at this particular one. Let 
+me clear this and go and run this one. Here's the sample code. Run this first one where 
+you saw that one, make this just a little bigger here. And you see this little thing is 
+still spinning. Right over here, it's still spinning. And that's because it's sort of 
+still processing the page, and the alert has actually completely stopped the JavaScript. 
+So the thing is going to happen right after the alert, won't happen until I press OK and 
+then it finishes. Okay? So the alert stops right now, and it's really stopping the 
+interpretation of this page. So alert doesn't just print out output, but it stops 
+JavaScript processing. So it's a pretty strong form of debugging, if that makes any sense. 
+So alert is just an executable statement. There are three ways that you can put JavaScript 
+into a document. One is inline within the document using a script tag. You can also put it 
+on things like onclick methods on things like hrefs, et cetera, or you can include a whole 
+file. See all of these examples. So this is some code that we've sort of been playing with 
+all along, but now it is time to sort of understand what's going on here. So this is an 
+anchor tag that is this tag right here, and we have an onclick method. So this is within 
+the anchor tag creates, and it says when someone clicks on this anchor tag, I want to run 
+this JavaScript right here. So the bit in between double quotes is JavaScript. And 
+JavaScript can use single quotes or double quotes of strings. So we tend to reserve the 
+double quotes for HTML. So onclick="something" That's HTML. And then 'Hi', single quotes, 
+in this case, is some JavaScript, and we're calling alert. Now, return false has to do 
+with, normally, if you were to click on an href, it would actually follow that link. 
+Okay? But if you say return false, it won't follow link. Just run this code and not 
+follow the link. Okay? So, let's take a look at that one. So if I click, it's going to 
+actually run the JavaScript rather than doing what it normally would do. And if you 
+recall, it would go to js-01.htm, but it's not going to because we did the return false. 
+Okay? So return false is the way to indicate that we don't actually want to do what 
+normally would have happened if the click happened. So you can do both the onclick method 
+and then let the tag do what it normally would do, or you can say, "I'm taking over and 
+doing that." So this is just one form. We're putting JavaScript right on a tag. So here's 
+another way to do it. And so this, when we show before, where we just did a script tag and 
+an end script tag and then had document right. You might see something like this on HTML5. 
+We tend not to do this, but this is validation to make sure that the JavaScript passes a 
+strict HTML 4.0 validation. But that's less important as we're moving to HTML5. So we 
+talked about this one. And then the third way to do this is to actually use the same 
+script tag and say, "I would like to load this file." And this then script.js has to be a 
+file that has some content in it. And in this case, we just have one line of JavaScript. 
+We don't have a script tag. It's just JavaScript itself. It knows that it's JavaScript by 
+the fact that we're inlining it. And so that's as if we typed all that stuff here. Now, 
+this is kind of a silly little example. It actually just moves that document right into 
+the file, but that's another form of including JavaScript that you will commonly see. So 
+syntax errors in JavaScript are a little bit different. I mean, we can make mistakes, 
+it's a programming language, but the problem is that most of the time you're using a 
+JavaScript page that you did not write, and you're just using Twitter. And if there's a 
+JavaScript error in a Twitter page, you, as the Twitter user, it doesn't do much good for 
+you to be told that there's a JavaScript error because you can't fix it. Syntax error, 
+missing semi-colon, who knows what it's going to be? So the browsers tend to be very, 
+very silent about any kind of a JavaScript error, but the code dies. Sometimes, there's 
+a little red icon that shows up in the lower left hand corner. So here's just an example 
+of a bit of bad JavaScript where we're just going to have a double quote that starts and 
+ends in a single quote. So that's a syntax error. And what we will see is that this will 
+run, it will die here, so this code doesn't finish, but then it actually gives up on that 
+script block and then continues, and you'll see that this one will run later. Okay? So 
+let's go ahead and show this, js-05. So it did not tell us anything about that first 
+syntax error, but it didn't run that second alert. And then it actually finishes. Okay? 
+So like I said, the end user is really not supposed to see the error, but we, as a 
+developer, need to look for errors. And so as we're writing JavaScript, you instinctively, 
+something won't work, you make a change and it won't work and your brain's got to go like, 
+"Oh wait, wait, wait, I made an error. I've got to actually explicitly look for it." And 
+so there are developer modes in all of these browsers. I'll play with the Chrome one here. 
+So let's take a look at how you turn on developer mode. Sometimes you have to enable this 
+little message to just show up. But at the end of the day, I can like to view JavaScript 
+console, and I'm going to hit refresh, and you will sort of see what's going on here. It 
+runs, but I see the error, and I can even click right here, and I can see the exact place 
+that the error happens. So increasingly, these browsers all have nice debugger modes in 
+them, and I just popped up a debugger, and it's got this little thing, and I can look at 
+the console. I can look at the code and go back and forth. And so this is a useful thing, 
+and you, as a developer, you'll tend to often just leave this sitting down here at the 
+bottom when you're working on code all the time, where it's like, "I just leave this on 
+all the time." You'd kind of do it with console, and you run it, and you see something 
+like, "Oh wait, wait, wait, wait." And then you know how to go look for that error. Okay? 
+So that's very important because there's no good way to see these things, unless you've 
+got this console turned on. Sometimes your browser will say go look up JavaScript errors, 
+but it really wants to hide these from end users. You, as the developer, the website have 
+to get the stuff right. So alert is kind of a blunt instrument, in that, it stops running 
+the code, and sometimes you have a loop or something, you want to put some debugging in it. 
+And so these debuggers have added a console.log method, and you can pass in a string, and 
+you can console.log all kinds of stuff. And so basically, what you can do with a debugger 
+turned on is, you say console.log and it'll come out in the log. And so this same 
+console.log that we were seeing allows you to see things, and it just runs. So that 
+console.log is a very useful thing, and it allows you to even inside of a loop or inside 
+of an event or an onclick method to be logging stuff without stopping. If you do an alert, 
+it stops. But if you do a console.log, it just streams by in the debugger window. And if 
+you don't, the end user doesn't see this, only developers might see it. So I tend in some 
+of my sites, you can go look at them, and you'll see the consoles talking. And you can see 
+a play by play of what's going on inside of one of my sites. Now, depending on the browser, 
+the console object may or may not always be there. Sometimes it's there when the debugger 
+is on. Sometimes it's not there when the debugger is off. So my favorite thing to do is, 
+whenever I'm going to do a console.log, I say window.console which won't cause an error, 
+&&. So that means that if a console exists, then I will call console.log. This is just a 
+real succinct way of saying that window.console and console.log. Another way to do it, 
+you can look up all kinds of ways to deal with console.log. This is my preferred way to 
+do it, but if the console function doesn't exist, console variable doesn't exist, it sort 
+of sets that up and sets a log function. But this is my favorite way to do that. So the 
+debugger, as we mentioned, is a great tool for debugging JavaScript. You can pause the 
+debugger. So let me show you how to do that. Let me go back. You can pause code. Sorry, 
+got to clear that. Pause code. So here's js-01, right? And I can look at the source, and 
+I can put a breakpoint here by clicking right there. So I now have a breakpoint at that 
+point. Now, the page is already run. So once I set the breakpoint, I've got to hit 
+refresh once to load the page. Now that knows where the breakpoint is supposed to be, 
+it'll run up and stop at the breakpoint. Okay? And so now, it is paused in the debugger. 
+You can see this pause in the debugger. You see this little spinny guy, meaning the page 
+isn't done loading yet because we've stopped it and we can look at variables and global 
+variables. There's all kinds of stuff that we can look at, Document Object Model, all 
+kinds of things. And I just click right here to continue the debugger. And so the page 
+completes. Now that's a very, very, very simple introduction to using the JavaScript 
+debugger, but it is very, very valuable and you'll get used to how this all works after awhile.
 
 <h3>JS - Document Object Model</h3>
-Now we're going to talk a little bit
-how we manipulate the Document Object Model from JavaScript. And so here we are in our happy
-little Request Response Cycle. And so the Document Object Model,
-of course, is how we out here in the real world,
-we view web pages, right. That's what we're seeing. So what we're going to see now is we're
-going to have a Request Response Cycle that's going to write to have JavaScript
-in it but that's no big deal. You'll notice that all these files
-I'm playing with now are HTM files. So they're static files they're not
-even running on the server at all. But inside they have some JavaScript. And now we're going to look
-at how JavaScript can look at things from the Document Object Model. Look them up and pull them out and then put stuff back in
-the Document Object Model. We've already saw how you can
-use document.write() to append to the Document Object Model,
+Now we're going to talk a little bit how we manipulate the Document Object Model from 
+JavaScript. And so here we are in our happy little Request Response Cycle. And so the 
+Document Object Model, of course, is how we out here in the real world, we view web pages, 
+right. That's what we're seeing. So what we're going to see now is we're going to have a 
+Request Response Cycle that's going to write to have JavaScript in it but that's no big 
+deal. You'll notice that all these files I'm playing with now are HTM files. So they're 
+static files they're not even running on the server at all. But inside they have some 
+JavaScript. And now we're going to look at how JavaScript can look at things from the 
+Document Object Model. Look them up and pull them out and then put stuff back in the 
+Document Object Model. 
+
+We've already seen how you can use document.write() to append to the Document Object Model, 
 and we see these things. And so this is the core essence of interactivity that does not
-require Request Response Cycles, when we can manipulate the Document
-Object Model interactively in JavaScript. Now in the next few lecture we're going to
-come up with all kind of ways which JavaScript is going to talk to the server
+require Request Response Cycles, when we can manipulate the Document Object Model 
+interactively in JavaScript. Now in the next few lecture we're going to come up with all 
+kind of ways which JavaScript is going to talk to the server
 and then update the Document Object Model but for
 now we're really just going to focus on this bit code right here with JavaScript
 is manipulating the Document Object Model. And not worry about the other cool
 things that JavaScript can do. Okay, so the Document Object Model has
 been around since the beginning of time. And when JavaScript was created
-the Document Object Model existed. The problem is in 1995, all these
+the Document Object Model existed. 
+
+The problem is in 1995, all these
 browsers kind of evolved independently. They all had sort of
 an internal data structure for how they would represent HTML once they
 parsed it, but they weren't the same. And so because the inconsistent
@@ -694,11 +886,14 @@ represent their page exactly the same way and in old days we'd write
 JavaScript code and then we have to debug and said in IE 7.3.1 You
 just blew up, but everything else works. And Firefox works,
 this works, and that works. That's less of a problem these days,
-but we will see. And so we would end up with
+but we will see. 
+
+And so we would end up with
 bugs that are just like, this thing works on everything but
 Internet Explorer. Blows up, and no options display. And this would be an example where
 you're writing code as a developer, and you tested and tested on Firefox, but
-then you put it in production and someone used Internet Explorer. That happens all the time. And it's very, very, very frustrating. But, it's still important
+then you put it in production and someone used Internet Explorer. That happens all the 
+time. And it's very, very, very frustrating. But, it's still important
 to be able to do basic, simple things to
 the Document Object Model. And so what they did is because
 the shapes weren't the same, and so what I mean by shape is this
@@ -709,14 +904,18 @@ something, right? But the sequence of these
 things is different. So the shapes in IE,
 Internet Explorer, or Chrome, or whatever, had different
 Document Object Models. because that was sort of treated as just a
-thing that the browser was allowed to do. The developers of the browser were
+thing that the browser was allowed to do. 
+
+The developers of the browser were
 allowed to architecture their own Document Object Model, based on what they
 thought was the coolest thing to do. And so the idea was that in the early
 days of JavaScript they said we are not going to standardize the document model,
 but what we want to do is we want to be able to find something deep in
 the Document Object Model independent of, we don't know what the shape is, but if
 we can mark this one with id="bob". Then I want to be able to
-grab this little thing, not knowing where it fits in the tree. But if we put an id tag on it, and that is a function that was built into all
+grab this little thing, not knowing where it fits in the tree. 
+
+But if we put an id tag on it, and that is a function that was built into all
 the object models called getElementById. So instead of going and starting
 a document and working your way down, you just say look I don't care,
 you go find the one that has id="bob". And so that's called getElementById. So what we do is we use this id tag. And we've seen this in CSS. We've used this in CCSS as well. But we also can use this in JavaScript as
