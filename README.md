@@ -1,8 +1,8 @@
 ---
 title: "University of Michigan's JavaScript, jQuery & JSON"
 author: "bbauska"
-date created: "6/06/2024 Thu 4+pm"
-date last editted: "9/18/2024 Wed 6+pm"
+date created: "4/19/2024 Fri 3+pm"
+date last editted: "10/03/2024 Thu 2+pm"
 output: 
   markdown:
     with some style
@@ -113,9 +113,9 @@ Database Applications in PHP courses in this specialization.</p>
 
 <ul>
   <li><a href="https://www.wa4e.com/code/javascript.zip">WA4E JavaScript zip (download)</a></li>
-  <li><a href="https://www.wa4e.com/code/javascript">WA4E JavaScript source code</a></li>
+  <li><a href="https://www.wa4e.com/code/javascript">WA4E JavaScript source code (shortcut)</a></li>
   <li><a href="https://www.wa4e.com/code/rrc.zip">WA4E RRC zip (download)</a></li>
-  <li><a href="https://www.wa4e.com/code/rrc/">WA4E RRC source code</a></li>
+  <li><a href="https://www.wa4e.com/code/rrc/">WA4E RRC source code (shortcut)</a></li>
   <li>Building JavaScript with Brendan Eich</li>
   <li>Internet Explorer Console Undefined Error (In video link, Basic JavaScript &amp; Code 
     Walk through JavaScript)</li>
@@ -572,22 +572,28 @@ beginners, but once you get good at it,
 it's a really powerful, powerful environment to figure out
 what's going wrong with your JavaScript. So up next, we're going to talk
 about JavaScript kind of as a programming language.</p>
-
+ & --> &amp;
+ < --> &lt;
+ > --> &gt;
+ " --> &quot;
+ ' --> &#x27;     &apos; is not recommended
+ / --> &#x2F;     forward slash is included as it helps end an HTML entity
+ 
 <h3>JavaScript - Core Language Features</h3>
-So as I mentioned at the beginning,
-JavaScript is an awesome language. It is a wonderful language,
-it's a powerful language as a developer. But it's also a language, because
-it's not a strongly typed language, it's a language that you have
-to be responsible and careful. The other thing that's cool about
-JavaScript is it's evolving and getting ideas from other languages. Because it's such a popular language
-it gets sort of regularly improved for PHP 7 or JavaScript 6. So it keeps getting better and better. And so I assume that you already know
-programming languages in general. So I'm just going to kind of highlight the
-cool things that are unique to JavaScript that might be different especially because
-there's a lot of overlapping between PHP and JavaScript because they're
-both C-based languages. They're both inspired by C. So comments on JavaScript Awesome. // which is a C++ comment
-to the end of the line. And then /* which is
-an older C style comment is a multiline comment that sort
-of goes across multiple lines. These are used for documenting functions. That's very nice. Languages that don't have multiline
+As I mentioned at the beginning, JavaScript is an awesome language. It is a wonderful 
+language, it's a powerful language as a developer. But it's also a language, because
+it's not a strongly typed language, it's a language that you have to be responsible 
+and careful. The other thing that's cool about JavaScript is it's evolving and getting 
+ideas from other languages. Because it's such a popular language it gets sort of regularly 
+improved for PHP 7 or JavaScript 6. So it keeps getting better and better. And so I assume 
+that you already know programming languages in general. 
+I'm just going to highlight the cool things that are unique to JavaScript that might be 
+different especially because there's a lot of overlapping between PHP and JavaScript 
+because they're both C-based languages. They're both inspired by C. So comments on 
+JavaScript Awesome. &#x2F;&#x2F; which is a C++ comment to the end of the line. And then 
+&#x2F;* 
+which is an older C style comment is a multiline comment that goes across multiple lines. 
+These are used for documenting functions. That's very nice. Languages that don't have multiline
 comments, I'm like grumpy about that. I'm talking about you, Python. Why don't have decent comments? I have to use triple quotes,
 which are actually strings! They're not comments, [SOUND]. Okay, so like any C based language,
 white spaces and newlines do not matter, statements end with a semicolon. There are certain situations where
@@ -896,6 +902,9 @@ Hello and welcome to Web Applications for Everybody. In this walkthrough, we're 
 
 <h3>Installing MAMP on Macintosh</h3>
 
-<h6>...the end</h6>
-<h6>Prior Change 4/19/24 Fri 3:07pm</h6>
-<h6>Last Changed 6/06/24 Thu 5:04pm</h6>
+<h6>...the end<br/>
+Start of Website 4/19/24 Fri 3:07pm<br/>
+Last Changed 6/06/24 Thu 5:04pm<br/>
+Last Changed 9/18/24 Wed 6:04pm<br/>
+Last Changed 10/03/24 Thu 1:56pm</h6>
+
