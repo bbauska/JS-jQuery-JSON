@@ -572,13 +572,14 @@ beginners, but once you get good at it,
 it's a really powerful, powerful environment to figure out
 what's going wrong with your JavaScript. So up next, we're going to talk
 about JavaScript kind of as a programming language.</p>
+<!--
  & --> &amp;
  < --> &lt;
  > --> &gt;
  " --> &quot;
  ' --> &#x27;     &apos; is not recommended
  / --> &#x2F;     forward slash is included as it helps end an HTML entity
- 
+--> 
 <h3>JavaScript - Core Language Features</h3>
 As I mentioned at the beginning, JavaScript is an awesome language. It is a wonderful 
 language, it's a powerful language as a developer. But it's also a language, because
