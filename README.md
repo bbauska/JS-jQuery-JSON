@@ -42,7 +42,7 @@ output:
 >#### a.02 [**JavaScript PowerPoint Slides (ppt file)**](#cha-02)
 >#### a.03 [**JavaScript Slides (pdf file)**](#cha-03)
 
-<ol type="1" start="1.01">
+<ol type="1" start="">
   <li id="#ch1-01">1.01 Welcome to the Course</li>
   <li id="#ch1-02">1.02 JavaScript Overview</li>
   <li id="#ch1-03">1.03 Basic JavaScript</li>
