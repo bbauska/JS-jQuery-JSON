@@ -42,7 +42,7 @@ output:
 >#### a.02 [**JavaScript PowerPoint Slides (ppt file)**](#cha-02)
 >#### a.03 [**JavaScript Slides (pdf file)**](#cha-03)
 
-<ol type="1" start="1>
+<ol type="1" start="1.01">
   <li id="#ch1-01">1.01 Welcome to the Course</li>
   <li id="#ch1-02">1.02 JavaScript Overview</li>
   <li id="#ch1-03">1.03 Basic JavaScript</li>
@@ -84,6 +84,7 @@ so it is a pretty quick introduction focusing on what is different about JavaScr
   <li>Explain the asynchronous nature of JavaScript in the browser</li>
   <li>Understand how and when the code in an "onlick" attribute is executed</li>
 </ul>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ table of contents - we begin ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <h4>Welcome to JavaScript, jQuery, and JSON, taught by Charles Severance!</h4>
 
@@ -197,7 +198,7 @@ manipulation of the Document Object Model(DOM) and event handling.</p>
 <ul>
   <li>3.05 Assignment Specification: Profiles, Positions and JQuery</li>
 </ul>
-<ol type="1" start="6">
+<ol type="1" start="3.06">
   <li>3.06 John Resig - JQuery</li>
   <li>3.07 Office Hours, Barcelona</li>
 </ol>
@@ -209,7 +210,7 @@ syntax to exchange data between code running on the server (i.e. in PHP) and cod
 in the browser (JavaScript/JQuery).</p>
 
 <h5>9 lessons, 2 readings</h5>
-<ol type="1" start="1">
+<ol type="1" start="4.01">
   <li>4.01 JavaScript Object Notation (JSON)</li>
   <li>4.02 JSON and jQuery</li>
   <li>4.03 Code Walkthrough: JavaScript Object Notation</li>
@@ -221,7 +222,7 @@ in the browser (JavaScript/JQuery).</p>
 <ul>
   <li>4.07: Assignment Specification: Profiles, Positions, and Education</li>
 </ul>
-<ol type="1" start="8">
+<ol type="1" start="4.08">
   <li>4.08 Office Hours: Montreal, Quebec</li>
   <li>4.09 Chuck Pretends he is a Travel Show (Paris)</li>
 </ol>
@@ -237,6 +238,8 @@ to <a href="https://milneopentextbooks.org/the-missing-link-an-introduction-to-w
 Web Development and Programming"</a>.</p>
 <p>Please utilize the Resources section for downloadable slides, web links, and other 
 resources by module.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ table of contents - we begin ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <div align="right">
   <b><a href="#table-of-contents">↥ Back To Top</a></b>
