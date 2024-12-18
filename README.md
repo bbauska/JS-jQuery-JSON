@@ -3,6 +3,7 @@ title: "University of Michigan's JavaScript, jQuery & JSON"
 author: "bbauska"
 date created: "4/19/2024 Fri 3+pm"
 date last editted: "10/03/2024 Thu 2+pm"
+date last editted: "12/17/2024 Tue 7+pm"
 output: 
   markdown:
     with some style
@@ -11,7 +12,8 @@ output:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of uofm-js-jquery-json ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 align="center">JavaScript, jQuery &amp; JSON</h2>
-<h6 align="center">by Charles Russell Severance, Clinical Professor University of Michigan (2017)</h6>
+<p align="center"><small><small>by Charles Russell Severance, Clinical Professor 
+  University of Michigan (2017)</small></small></p>
 <br/>
 
 <h3 align="center"> </h3>
@@ -38,34 +40,32 @@ output:
 
 
 ### [**About**](#cha)
->#### a.01 [**About**](#cha-01)
->#### a.02 [**JavaScript PowerPoint Slides (ppt file)**](#cha-02)
->#### a.03 [**JavaScript Slides (pdf file)**](#cha-03)
+>  - #### a.01 [**About**](#cha-01)
+>  - #### a.02 [**JavaScript PowerPoint Slides (ppt file)**](#cha-02)
+>  - #### a.03 [**JavaScript Slides (pdf file)**](#cha-03)
 
-<ol type="1" start="">
-  <li id="#ch1-01">1.01 Welcome to the Course</li>
-  <li id="#ch1-02">1.02 JavaScript Overview</li>
-  <li id="#ch1-03">1.03 Basic JavaScript</li>
-  <li id="#ch1-04">1.04 JavaScript - Core Language Features</li>
-  <li id="#ch1-05">1.05 JavaScript - Variables and Expressions</li>
-  <li id="#ch1-06">1.06 JavaScript - Arrays and Control Structures</li>
-  <li id="#ch1-07">1.07 Code Walkthrough: JavaScript</li>
-  <li id="#ch1-08">1.08 JavaScript - Document Object Model</li>
-  <li id="#ch1-09">1.09 Code Walkthrough: Document Object Model (DOM)</li>
-  <li id="#ch1-10">1.10 Code Walkthrough - Javascript/Profiles</li>
-</ol>
+### [**Week 1: Getting Started; Intro to JavaScript, jQuery &amp; JSON**](#ch1)
+>#### [**1.01 Welcome to the Course**](#ch1-01)
+>#### [**1.02 JavaScript Overview**](#ch1-02)
+>#### [**1.03 Basic JavaScript**](#ch1-03)
+>#### [**1.04 JavaScript - Core Language Features**](#ch1-04)
+>#### [**1.05 JavaScript - Variables and Expressions**](#ch1-05)
+>#### [**1.06 JavaScript - Arrays and Control Structures**](#ch1-06)
+>#### [**1.07 Code Walkthrough: JavaScript**](#ch1-07)
+>#### [**1.08 JavaScript - Document Object Model (DOM)**](#ch1-08)
+>#### [**1.09 Code Walkthrough: Document Object Model (DOM)**](#ch1-09)
+>#### [**1.10 Code Walkthrough - JavaScript/Profiles**](#ch1-10)
+>   - #### [**1.10 Assignment Specification: JavaScript/Profiles**](#ch1-10-assign)
+>   - #### [**1.10 Installation Handouts**](#ch1-10-hndouts)
 
->####[**1.10 Assignment Specification: JavaScript/Profiles**](#ch1-10-assign)
->####[**1.10 Installation Handouts**](#ch1-10-hndouts)
-
->#### 1.11 [**Installing MAMP on MacIntosh**](#ch1-11)
->#### 1.12 [**Installing MAMP on Windows10**](#ch1-12)
->#### 1.13 [**Installing XAMPP on Windows10**](#ch1-13)
->####[**1.13 Installing LAMP On Linux**](#ch1-13-linux)
->#### 1.14 [**Windows: Using NGrok with the Autograder**](#ch1-14)
->#### 1.15 [**MacIntosh: Using NGrok with the Autograder**](#ch1-15)
->#### 1.16 [**Brendan Eich - Inventing JavaScript**](#ch1-16)
->#### 1.17 [**Office Hours Seattle, Washington**](#ch1-17)
+>#### [**1.11 Installing MAMP on MacIntosh**](#ch1-11)
+>#### [**1.12 Installing MAMP on Windows10**](#ch1-12)
+>#### [**1.13 Installing XAMPP on Windows10**](#ch1-13)
+>   - #### [**1.13 Installing LAMP On Linux**](#ch1-13-linux)
+>#### [**1.14 Windows: Using NGrok with the Autograder**](#ch1-14)
+>#### [**1.15 MacIntosh: Using NGrok with the Autograder**](#ch1-15)
+>#### [**1.16 Brendan Eich - Inventing JavaScript**](#ch1-16)
+>#### [**1.17 Office Hours Seattle, Washington**](#ch1-17)
 
 ### [**Week 2: JavaScript**](#ch2)
 
@@ -590,14 +590,14 @@ what's going wrong with your JavaScript. So up next, we're going to talk
 about JavaScript kind of as a programming language.</p>
 
 <!-- comment out the following for documentation only -->
-```
-& --> &amp;
-< --> &lt;
-> --> &gt;
-" --> &quot;
-' --> &#x27;     &apos; is not recommended
-/ --> &#x2F;     forward slash is included as it helps end an HTML entity
-```
+<pre>
+& --&gt; &amp;
+&lt; --&gt; &lt;
+&gt; --&gt; &gt;
+" --&gt; &quot;
+' --&gt; &#x27;     &apos; is not recommended
+/ --&gt; &#x2F;     forward slash is included as it helps end an HTML entity
+</pre>
 
 <h3>JavaScript - Core Language Features</h3>
 As I mentioned at the beginning, JavaScript is an awesome language. It is a wonderful 
@@ -1068,7 +1068,7 @@ I can also change it, right? I can also change it. So I can put it on document.g
 statement that's going to overwrite this part of the Document
 Object Model and change it. And I have a couple log statements. So let's play with this
 particular one right here. This is js-13. Okay, so if we recall, it goes in, it finds the id tag of person. Then it prints out how much, lets switch
-to console, I can't wait, wait, wait, let me switch to console here. [LAUGH] I mean,
+to console, I can't wait, wait, wait, let me switch to console here. I mean,
 once the alert's up I can't switch right, because the alert has taken
 over the whole browser. So I am going to switch to console so
 I can watch it in console. And then I'm going to clear the console
@@ -1234,5 +1234,6 @@ Okay? Thanks for listening.
 Start of Website 4/19/24 Fri 3:07pm<br/>
 Last Changed 6/06/24 Thu 5:04pm<br/>
 Last Changed 9/18/24 Wed 6:04pm<br/>
-Last Changed 10/03/24 Thu 1:56pm</h6>
+Last Changed 10/03/24 Thu 1:56pm<br/>
+Last Changed 12/17/24 Tue 7:16pm</h6>
 
